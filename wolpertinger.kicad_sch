@@ -989,6 +989,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5900,7 +6061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0189e7d3-8a8c-4a11-8dfa-e974db01dca6")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 171.45 237.4899 90)
 			(effects
 				(font
@@ -5972,7 +6133,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5988,7 +6149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a8d6cd-c5cd-41eb-a4f6-412ae40f8ec7")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR02"
 			(at 33.02 168.91 0)
 			(effects
 				(font
@@ -6038,7 +6199,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR07")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -6054,7 +6215,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0440cbba-2b46-4bac-bb62-f2db03f3c289")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 125.73 27.94 90)
 			(effects
 				(font
@@ -6070,7 +6231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 125.73 36.068 90)
 			(effects
 				(font
@@ -6106,7 +6267,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -6122,7 +6283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "075a6291-6400-4e2b-87e0-99eff53fcb61")
-		(property "Reference" "K3"
+		(property "Reference" "K2"
 			(at 205.74 152.4 90)
 			(effects
 				(font
@@ -6193,7 +6354,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "K3")
+					(reference "K2")
 					(unit 2)
 				)
 			)
@@ -6209,7 +6370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d2b29f3-4c37-42b2-91c2-739e24ce9e09")
-		(property "Reference" "K2"
+		(property "Reference" "K1"
 			(at 187.96 237.4899 0)
 			(effects
 				(font
@@ -6282,7 +6443,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "K2")
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -6298,7 +6459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e8c010a-c68f-479c-b4d7-617c533db3c0")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 99.06 228.6 0)
 			(effects
 				(font
@@ -6347,7 +6508,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6378,7 +6539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 172.72 144.78 0)
 			(effects
 				(font
@@ -6542,7 +6703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18784994-6d2c-4a6a-9b67-0e07f537b66d")
-		(property "Reference" "R22"
+		(property "Reference" "R21"
 			(at 195.58 153.6699 0)
 			(effects
 				(font
@@ -6560,7 +6721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 191.262 154.94 90)
 			(effects
 				(font
@@ -6596,7 +6757,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R22")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6611,7 +6772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19823cdf-263e-42c2-b193-e5dc9294e631")
-		(property "Reference" "R12"
+		(property "Reference" "R19"
 			(at 187.96 257.81 90)
 			(effects
 				(font
@@ -6627,7 +6788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 187.96 262.128 90)
 			(effects
 				(font
@@ -6662,7 +6823,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R12")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6678,7 +6839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28983bd4-efb5-47c4-a0be-3d05c8c38637")
-		(property "Reference" "RV4"
+		(property "Reference" "TR2"
 			(at 172.72 129.54 90)
 			(effects
 				(font
@@ -6733,7 +6894,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "RV4")
+					(reference "TR2")
 					(unit 1)
 				)
 			)
@@ -6749,7 +6910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29fd7f73-18f5-4e6a-b80f-bc8152514afc")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 96.52 52.07 90)
 			(effects
 				(font
@@ -6801,7 +6962,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 81.28 57.15 0)
 			(effects
 				(font
@@ -6921,7 +7082,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4314ed93-7e81-4c1a-8502-230c3c7b6747")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 52.07 168.91 0)
 			(effects
 				(font
@@ -6971,7 +7132,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR08")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6986,7 +7147,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4612e2ee-29c3-46d6-8240-9a159d2ad7af")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 127 189.23 90)
 			(effects
 				(font
@@ -7002,7 +7163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 127 193.548 90)
 			(effects
 				(font
@@ -7037,7 +7198,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -7053,7 +7214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "467259b6-e197-48a7-a13c-3dbb010ff407")
-		(property "Reference" "R7"
+		(property "Reference" "R15"
 			(at 139.7 29.21 90)
 			(effects
 				(font
@@ -7069,7 +7230,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.7 36.068 90)
 			(effects
 				(font
@@ -7105,7 +7266,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7121,7 +7282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471333e9-cc17-46e6-a026-b9a4b5fb486b")
-		(property "Reference" "K3"
+		(property "Reference" "K2"
 			(at 203.2 237.4899 0)
 			(effects
 				(font
@@ -7168,33 +7329,33 @@
 			)
 		)
 		(pin "10"
-			(uuid "11f7e9e0-3795-4fe3-9cd3-ed5a2b65f039")
+			(uuid "11f7e9e0-3795-4fe3-9cd3-ed5a2b65f03a")
 		)
 		(pin "1"
-			(uuid "01248b7e-fc14-4f7c-8904-b4c8af14c46e")
+			(uuid "01248b7e-fc14-4f7c-8904-b4c8af14c46f")
 		)
 		(pin "4"
-			(uuid "e5df0771-32a2-4fa5-be73-30f920f7de1c")
+			(uuid "e5df0771-32a2-4fa5-be73-30f920f7de1d")
 		)
 		(pin "3"
-			(uuid "fe4aadcc-b07a-4c06-b993-e51de4f78c6e")
+			(uuid "fe4aadcc-b07a-4c06-b993-e51de4f78c6f")
 		)
 		(pin "7"
-			(uuid "8723118a-8a78-4355-8c9b-7aeec1638a4e")
+			(uuid "8723118a-8a78-4355-8c9b-7aeec1638a4f")
 		)
 		(pin "9"
-			(uuid "8948d3b0-d381-48ec-a0ad-2e4a929aa4d8")
+			(uuid "8948d3b0-d381-48ec-a0ad-2e4a929aa4d9")
 		)
 		(pin "8"
-			(uuid "578aa161-f762-4644-9161-f6fd54c0df24")
+			(uuid "578aa161-f762-4644-9161-f6fd54c0df25")
 		)
 		(pin "2"
-			(uuid "eecab581-4058-4f1f-a60c-cca9b1090ed9")
+			(uuid "eecab581-4058-4f1f-a60c-cca9b1090eda")
 		)
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "K3")
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -7286,7 +7447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "492796ff-d884-41db-b20d-296f66598a14")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 193.04 168.91 0)
 			(effects
 				(font
@@ -7336,7 +7497,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7428,7 +7589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b8d324-eac5-4641-9ef6-6dd2939f7fc2")
-		(property "Reference" "T16"
+		(property "Reference" "T7"
 			(at 222.25 235.7119 0)
 			(effects
 				(font
@@ -7478,7 +7639,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "T16")
+					(reference "T7")
 					(unit 1)
 				)
 			)
@@ -7510,7 +7671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 81.28 142.24 0)
 			(effects
 				(font
@@ -7541,7 +7702,7 @@
 			(uuid "0e0e5fdd-b284-44e8-aacd-bb63d3cac2f8")
 		)
 		(pin "6"
-			(uuid "576b299a-1deb-409f-b181-3eced350c74c")
+			(uuid "576b299a-1deb-409f-b181-3eced350c74d")
 		)
 		(pin "2"
 			(uuid "60970787-9041-44fd-9101-d09d0c32c7bf")
@@ -7550,34 +7711,34 @@
 			(uuid "e9086da0-e44a-4476-abc4-8c60b8c098c5")
 		)
 		(pin "13"
-			(uuid "8784ab9e-9f55-41b1-afc4-8cd25d2d6dcc")
+			(uuid "8784ab9e-9f55-41b1-afc4-8cd25d2d6dcd")
 		)
 		(pin "11"
-			(uuid "6002b983-c49f-4762-96bd-8b661c7d9768")
+			(uuid "6002b983-c49f-4762-96bd-8b661c7d9769")
 		)
 		(pin "5"
-			(uuid "8eb44c58-bc5b-40e1-a79d-8af6a3441775")
+			(uuid "8eb44c58-bc5b-40e1-a79d-8af6a3441776")
 		)
 		(pin "9"
-			(uuid "13680a98-9bc7-45ec-85e7-8a88b253ee27")
+			(uuid "13680a98-9bc7-45ec-85e7-8a88b253ee28")
 		)
 		(pin "4"
-			(uuid "011d8d8d-56e0-4fb4-a2da-f11549f42b8f")
+			(uuid "011d8d8d-56e0-4fb4-a2da-f11549f42b90")
 		)
 		(pin "14"
-			(uuid "3f158ae0-cc36-4444-a84d-94c40cc5b760")
+			(uuid "3f158ae0-cc36-4444-a84d-94c40cc5b761")
 		)
 		(pin "7"
-			(uuid "1aab34c4-94a1-4ec0-868b-ed3867955699")
+			(uuid "1aab34c4-94a1-4ec0-868b-ed386795569a")
 		)
 		(pin "8"
-			(uuid "194feaa1-1b39-4aa6-8786-37a797b667a0")
+			(uuid "194feaa1-1b39-4aa6-8786-37a797b667a1")
 		)
 		(pin "10"
-			(uuid "63a02110-21b3-40a4-919c-522c33b542ea")
+			(uuid "63a02110-21b3-40a4-919c-522c33b542eb")
 		)
 		(pin "12"
-			(uuid "4dfa52cc-a832-447b-9acf-ea3bf3bc81bd")
+			(uuid "4dfa52cc-a832-447b-9acf-ea3bf3bc81be")
 		)
 		(instances
 			(project "wolpertinger"
@@ -7616,7 +7777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 50.292 69.85 90)
 			(effects
 				(font
@@ -7668,7 +7829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c5bd179-bf4c-4c97-8c4d-77f0645fb756")
-		(property "Reference" "T17"
+		(property "Reference" "T8"
 			(at 222.25 240.5379 0)
 			(effects
 				(font
@@ -7718,7 +7879,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "T17")
+					(reference "T8")
 					(unit 1)
 				)
 			)
@@ -7734,7 +7895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66074b39-9940-42c5-9140-37371f17e64c")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 106.68 27.94 90)
 			(effects
 				(font
@@ -7750,7 +7911,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 106.68 32.512 90)
 			(effects
 				(font
@@ -7786,7 +7947,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7801,7 +7962,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "68ea1520-b65f-4c50-8ad9-fac6cea4dfaa")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 95.25 217.17 0)
 			(effects
 				(font
@@ -7810,7 +7971,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 95.25 219.71 0)
 			(effects
 				(font
@@ -7819,7 +7980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 100.0252 222.25 0)
 			(effects
 				(font
@@ -7854,75 +8015,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 62.23 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "690db10a-620d-4766-b19d-53ba82ab5e70")
-		(property "Reference" "C5"
-			(at 187.96 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 187.96 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 61.2648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4c23d1db-4094-4253-a4a7-d6eec8c99b00")
-		)
-		(pin "2"
-			(uuid "73e67daa-86d8-42d5-ae8b-0e76f1b49ea9")
-		)
-		(instances
-			(project ""
-				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -7938,7 +8031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6986d7f5-c827-4ec7-a34f-b9226eb9be57")
-		(property "Reference" "K3"
+		(property "Reference" "K2"
 			(at 41.91 139.7 90)
 			(effects
 				(font
@@ -7983,33 +8076,33 @@
 			)
 		)
 		(pin "10"
-			(uuid "11f7e9e0-3795-4fe3-9cd3-ed5a2b65f039")
+			(uuid "11f7e9e0-3795-4fe3-9cd3-ed5a2b65f03b")
 		)
 		(pin "1"
-			(uuid "01248b7e-fc14-4f7c-8904-b4c8af14c46e")
+			(uuid "01248b7e-fc14-4f7c-8904-b4c8af14c470")
 		)
 		(pin "4"
-			(uuid "e5df0771-32a2-4fa5-be73-30f920f7de1c")
+			(uuid "e5df0771-32a2-4fa5-be73-30f920f7de1e")
 		)
 		(pin "3"
-			(uuid "fe4aadcc-b07a-4c06-b993-e51de4f78c6e")
+			(uuid "fe4aadcc-b07a-4c06-b993-e51de4f78c70")
 		)
 		(pin "7"
-			(uuid "8723118a-8a78-4355-8c9b-7aeec1638a4e")
+			(uuid "8723118a-8a78-4355-8c9b-7aeec1638a50")
 		)
 		(pin "9"
-			(uuid "8948d3b0-d381-48ec-a0ad-2e4a929aa4d8")
+			(uuid "8948d3b0-d381-48ec-a0ad-2e4a929aa4da")
 		)
 		(pin "8"
-			(uuid "578aa161-f762-4644-9161-f6fd54c0df24")
+			(uuid "578aa161-f762-4644-9161-f6fd54c0df26")
 		)
 		(pin "2"
-			(uuid "eecab581-4058-4f1f-a60c-cca9b1090ed9")
+			(uuid "eecab581-4058-4f1f-a60c-cca9b1090edb")
 		)
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "K3")
+					(reference "K2")
 					(unit 3)
 				)
 			)
@@ -8025,7 +8118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fb23cd0-7741-4b1b-b0c5-9888af2bf6e0")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 106.68 62.23 90)
 			(effects
 				(font
@@ -8041,7 +8134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 106.68 66.802 90)
 			(effects
 				(font
@@ -8077,7 +8170,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -8093,7 +8186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc85130-f3d4-4532-8c2c-e3e27fc48249")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 67.31 217.17 0)
 			(effects
 				(font
@@ -8142,7 +8235,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8223,7 +8316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "714eaea4-399b-4ccd-baef-743be8d03270")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 38.1 217.17 0)
 			(effects
 				(font
@@ -8272,7 +8365,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8288,7 +8381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "754cc598-e84d-4e00-99d5-144d98155ae1")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 52.07 83.82 0)
 			(effects
 				(font
@@ -8338,7 +8431,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8446,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75f41482-bde5-4107-b298-ea88684104ee")
-		(property "Reference" "C6"
+		(property "Reference" "C1"
 			(at 29.21 200.66 0)
 			(effects
 				(font
@@ -8362,7 +8455,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 29.21 203.2 0)
 			(effects
 				(font
@@ -8371,7 +8464,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" ""
 			(at 33.9852 205.74 0)
 			(effects
 				(font
@@ -8406,7 +8499,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C6")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -8422,7 +8515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77ef22fd-3880-4a6c-89a7-435fd84db2d4")
-		(property "Reference" "R14"
+		(property "Reference" "R2"
 			(at 54.61 153.6699 0)
 			(effects
 				(font
@@ -8440,7 +8533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 50.292 154.94 90)
 			(effects
 				(font
@@ -8476,7 +8569,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R14")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -8491,7 +8584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81ac3e17-e655-45e5-b955-ef3b6665b264")
-		(property "Reference" "T2"
+		(property "Reference" "T5"
 			(at 218.44 58.42 90)
 			(effects
 				(font
@@ -8500,7 +8593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IN LEFT"
+		(property "Value" "OUT LEFT"
 			(at 218.44 60.96 90)
 			(effects
 				(font
@@ -8541,7 +8634,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "T2")
+					(reference "T5")
 					(unit 1)
 				)
 			)
@@ -8557,7 +8650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82c3aef0-1bee-4328-b4bf-c4ef135b2ef1")
-		(property "Reference" "T8"
+		(property "Reference" "T3"
 			(at 101.6 203.9619 0)
 			(effects
 				(font
@@ -8607,7 +8700,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "T8")
+					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -8639,7 +8732,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 138.43 153.67 0)
 			(effects
 				(font
@@ -8726,7 +8819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8546de93-a0c2-42b3-bce9-446a4ce1f29a")
-		(property "Reference" "R13"
+		(property "Reference" "R22"
 			(at 208.28 247.65 90)
 			(effects
 				(font
@@ -8742,7 +8835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 208.28 251.968 90)
 			(effects
 				(font
@@ -8777,7 +8870,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R13")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -8793,7 +8886,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85b72a90-ca67-40c0-a495-71024ee5aa5d")
-		(property "Reference" "K2"
+		(property "Reference" "K1"
 			(at 205.74 67.31 90)
 			(effects
 				(font
@@ -8838,34 +8931,102 @@
 			)
 		)
 		(pin "10"
-			(uuid "484770ba-32ba-491e-ab73-a74ad2e6c160")
+			(uuid "484770ba-32ba-491e-ab73-a74ad2e6c161")
 		)
 		(pin "2"
-			(uuid "c42ac3e8-f1ea-413c-92c6-4db50bcc01cb")
+			(uuid "c42ac3e8-f1ea-413c-92c6-4db50bcc01cc")
 		)
 		(pin "1"
-			(uuid "fa9f2ed2-7e04-45a9-aee3-87f1c4032acd")
+			(uuid "fa9f2ed2-7e04-45a9-aee3-87f1c4032ace")
 		)
 		(pin "4"
-			(uuid "65269c3d-37ca-4aa5-9275-8f1251def453")
+			(uuid "65269c3d-37ca-4aa5-9275-8f1251def454")
 		)
 		(pin "9"
-			(uuid "1d9706ef-c5df-4024-b474-caa8824f505e")
+			(uuid "1d9706ef-c5df-4024-b474-caa8824f505f")
 		)
 		(pin "7"
-			(uuid "645053d4-04e1-4249-aec7-713753024e78")
+			(uuid "645053d4-04e1-4249-aec7-713753024e79")
 		)
 		(pin "8"
-			(uuid "f43d31fe-afad-436c-b353-24f137110c9d")
+			(uuid "f43d31fe-afad-436c-b353-24f137110c9e")
 		)
 		(pin "3"
-			(uuid "195bb0e1-63bf-4d90-9ba4-bd21212ad5a5")
+			(uuid "195bb0e1-63bf-4d90-9ba4-bd21212ad5a6")
 		)
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "K2")
+					(reference "K1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 187.96 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cce6fa7-d9a1-4afd-8989-784ce0853a69")
+		(property "Reference" "C11"
+			(at 187.071 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 187.071 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 61.2648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6039b179-86b8-4876-b84c-7456222eb422")
+		)
+		(pin "2"
+			(uuid "08317629-77f1-4d85-8098-b7577cd21316")
+		)
+		(instances
+			(project ""
+				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
+					(reference "C11")
+					(unit 1)
 				)
 			)
 		)
@@ -8896,7 +9057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 138.43 68.58 0)
 			(effects
 				(font
@@ -8924,28 +9085,28 @@
 			)
 		)
 		(pin "11"
-			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec4")
+			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec5")
 		)
 		(pin "2"
-			(uuid "8f352bee-8f92-4670-8547-7a49243effe5")
+			(uuid "8f352bee-8f92-4670-8547-7a49243effe6")
 		)
 		(pin "1"
-			(uuid "168da905-4374-4508-b6b8-1eb8cba4ca4a")
+			(uuid "168da905-4374-4508-b6b8-1eb8cba4ca4b")
 		)
 		(pin "5"
-			(uuid "761c9cd6-8372-4b62-b12a-228407005138")
+			(uuid "761c9cd6-8372-4b62-b12a-228407005139")
 		)
 		(pin "10"
 			(uuid "cfd9dbce-853b-4532-ba71-d0dc876265f7")
 		)
 		(pin "12"
-			(uuid "6465c10d-7076-41a3-b13a-02e850517209")
+			(uuid "6465c10d-7076-41a3-b13a-02e85051720a")
 		)
 		(pin "13"
-			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f2")
+			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f3")
 		)
 		(pin "3"
-			(uuid "2cea1571-b535-4ecc-8afb-4143d9a7f166")
+			(uuid "2cea1571-b535-4ecc-8afb-4143d9a7f167")
 		)
 		(pin "8"
 			(uuid "356c0bd2-bc53-4bd4-bede-681f35d8c42e")
@@ -8954,16 +9115,16 @@
 			(uuid "984ec20b-586d-4ad9-9d7f-904017294f09")
 		)
 		(pin "14"
-			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e2")
+			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e3")
 		)
 		(pin "6"
-			(uuid "8316cdb4-1d4e-4666-9cfb-6c61475d3114")
+			(uuid "8316cdb4-1d4e-4666-9cfb-6c61475d3115")
 		)
 		(pin "4"
-			(uuid "ce024ddc-4de7-4468-95a3-9672472a3323")
+			(uuid "ce024ddc-4de7-4468-95a3-9672472a3324")
 		)
 		(pin "7"
-			(uuid "e4d82c09-ef12-4398-9572-cc86df934dec")
+			(uuid "e4d82c09-ef12-4398-9572-cc86df934ded")
 		)
 		(instances
 			(project "wolpertinger"
@@ -8984,7 +9145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94601a6c-63d8-4993-bb03-e26a9c3a5102")
-		(property "Reference" "R18"
+		(property "Reference" "R12"
 			(at 125.73 113.03 90)
 			(effects
 				(font
@@ -9000,7 +9161,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 125.73 121.158 90)
 			(effects
 				(font
@@ -9036,7 +9197,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R18")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9052,7 +9213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b06ed49-2388-4b01-8830-3a76f6e89b29")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR011"
 			(at 198.12 274.32 0)
 			(effects
 				(font
@@ -9101,7 +9262,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR014")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9117,7 +9278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9db135c4-938e-46da-80af-f842c4aa5efb")
-		(property "Reference" "C8"
+		(property "Reference" "C3"
 			(at 58.42 139.7 90)
 			(effects
 				(font
@@ -9169,7 +9330,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C8")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -9185,7 +9346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dc3d71e-a6d1-406c-ab9a-e719e134534b")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 116.84 60.96 90)
 			(effects
 				(font
@@ -9237,7 +9398,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -9252,7 +9413,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8732788-1205-4f66-8947-baa246ec6a8b")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 59.69 198.12 0)
 			(effects
 				(font
@@ -9268,7 +9429,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 50.8 201.93 0)
 			(effects
 				(font
@@ -9339,8 +9500,76 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "U3")
+					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 187.96 147.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac965831-28ac-4296-917f-e4687c8bba1b")
+		(property "Reference" "C12"
+			(at 187.071 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 187.071 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 146.3548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 187.96 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "144f4c6c-1b66-4b36-9933-8df6b7edecd3")
+		)
+		(pin "2"
+			(uuid "3e06b823-81f1-41e5-9420-e1af11a8b18c")
+		)
+		(instances
+			(project "wolpertinger"
+				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
+					(reference "C12")
+					(unit 1)
 				)
 			)
 		)
@@ -9371,7 +9600,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 138.43 46.99 0)
 			(effects
 				(font
@@ -9399,7 +9628,7 @@
 			)
 		)
 		(pin "11"
-			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec5")
+			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec7")
 		)
 		(pin "2"
 			(uuid "fe263bd5-a7f4-4e04-8992-b052b1eb6f19")
@@ -9408,16 +9637,16 @@
 			(uuid "ebbe1361-360a-45db-8692-57e078256df7")
 		)
 		(pin "5"
-			(uuid "761c9cd6-8372-4b62-b12a-228407005139")
+			(uuid "761c9cd6-8372-4b62-b12a-22840700513b")
 		)
 		(pin "10"
 			(uuid "cfd9dbce-853b-4532-ba71-d0dc876265f8")
 		)
 		(pin "12"
-			(uuid "6465c10d-7076-41a3-b13a-02e85051720a")
+			(uuid "6465c10d-7076-41a3-b13a-02e85051720b")
 		)
 		(pin "13"
-			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f3")
+			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f4")
 		)
 		(pin "3"
 			(uuid "c42d9074-d031-44ae-8022-16085c7ea2f2")
@@ -9429,16 +9658,16 @@
 			(uuid "984ec20b-586d-4ad9-9d7f-904017294f0a")
 		)
 		(pin "14"
-			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e3")
+			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e4")
 		)
 		(pin "6"
-			(uuid "8316cdb4-1d4e-4666-9cfb-6c61475d3115")
+			(uuid "8316cdb4-1d4e-4666-9cfb-6c61475d3117")
 		)
 		(pin "4"
-			(uuid "ce024ddc-4de7-4468-95a3-9672472a3324")
+			(uuid "ce024ddc-4de7-4468-95a3-9672472a3326")
 		)
 		(pin "7"
-			(uuid "e4d82c09-ef12-4398-9572-cc86df934ded")
+			(uuid "e4d82c09-ef12-4398-9572-cc86df934def")
 		)
 		(instances
 			(project ""
@@ -9459,7 +9688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2eb6422-257f-4f79-af94-74f3e61c212b")
-		(property "Reference" "T9"
+		(property "Reference" "T4"
 			(at 101.6 210.0579 0)
 			(effects
 				(font
@@ -9509,7 +9738,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "T9")
+					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -9524,7 +9753,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b35339e1-a1ed-4ccf-bbfa-ca9e908db092")
-		(property "Reference" "T4"
+		(property "Reference" "T6"
 			(at 218.44 143.51 90)
 			(effects
 				(font
@@ -9533,7 +9762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IN RIGHT"
+		(property "Value" "OUT RIGHT"
 			(at 218.44 146.05 90)
 			(effects
 				(font
@@ -9574,7 +9803,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "T4")
+					(reference "T6")
 					(unit 1)
 				)
 			)
@@ -9589,7 +9818,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8a8eb93-dfa3-4479-86f5-5014f68b537c")
-		(property "Reference" "T3"
+		(property "Reference" "T2"
 			(at 25.4 146.05 90)
 			(effects
 				(font
@@ -9639,7 +9868,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "T3")
+					(reference "T2")
 					(unit 1)
 				)
 			)
@@ -9654,7 +9883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf34cd00-c0f7-4b9e-b9b2-275d9c19f644")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 130.81 198.12 0)
 			(effects
 				(font
@@ -9670,7 +9899,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 121.92 201.93 0)
 			(effects
 				(font
@@ -9741,7 +9970,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "U3")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -9757,7 +9986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0b262df-1731-4956-b141-67e26dfb6116")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 116.84 146.05 90)
 			(effects
 				(font
@@ -9809,7 +10038,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -9825,7 +10054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c124bb72-e516-4578-9d26-d7e0c70b3820")
-		(property "Reference" "R9"
+		(property "Reference" "R20"
 			(at 195.58 68.5799 0)
 			(effects
 				(font
@@ -9843,7 +10072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 191.262 69.85 90)
 			(effects
 				(font
@@ -9879,7 +10108,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R9")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9895,7 +10124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c390868b-3d39-4bdd-bacb-6af966686aef")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 67.31 54.6099 0)
 			(effects
 				(font
@@ -9913,7 +10142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 62.992 55.88 90)
 			(effects
 				(font
@@ -9949,7 +10178,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9965,7 +10194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c61f4550-d690-47f9-800d-3f04fab56823")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 139.7 104.14 90)
 			(effects
 				(font
@@ -10017,7 +10246,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -10033,7 +10262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c67f8629-e9be-4f5e-a99e-97ad1299665d")
-		(property "Reference" "R19"
+		(property "Reference" "R13"
 			(at 125.73 147.32 90)
 			(effects
 				(font
@@ -10049,7 +10278,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 125.73 155.448 90)
 			(effects
 				(font
@@ -10085,7 +10314,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R19")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10101,7 +10330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c80c4548-8ec8-4d53-9080-1c104cd6368a")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 193.04 83.82 0)
 			(effects
 				(font
@@ -10151,7 +10380,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR01")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10167,7 +10396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbb16fbc-5243-4fc5-a911-4647d2a3de54")
-		(property "Reference" "RV3"
+		(property "Reference" "RV1"
 			(at 109.22 53.3399 0)
 			(effects
 				(font
@@ -10224,7 +10453,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "RV3")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -10240,7 +10469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc9aea3-ebd5-41c4-94c0-cbc09544de04")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 139.7 114.3 90)
 			(effects
 				(font
@@ -10256,7 +10485,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.7 121.158 90)
 			(effects
 				(font
@@ -10292,7 +10521,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -10308,7 +10537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4de4128-fbcf-4aff-ab0c-5f6f7f3f7fb7")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 125.73 62.23 90)
 			(effects
 				(font
@@ -10324,7 +10553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 125.73 70.358 90)
 			(effects
 				(font
@@ -10360,7 +10589,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10375,7 +10604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d50287e6-4bcb-44c0-8bb3-c2f2be50277f")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 109.22 212.09 90)
 			(effects
 				(font
@@ -10391,7 +10620,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 109.22 216.408 90)
 			(effects
 				(font
@@ -10426,7 +10655,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10442,7 +10671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5aa6987-428f-45ea-9288-08b1a3887d1b")
-		(property "Reference" "R8"
+		(property "Reference" "R16"
 			(at 139.7 57.15 90)
 			(effects
 				(font
@@ -10458,7 +10687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.7 61.722 90)
 			(effects
 				(font
@@ -10494,7 +10723,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R8")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10510,7 +10739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7105cc8-041a-44bf-9987-965261e952d3")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 58.42 54.61 90)
 			(effects
 				(font
@@ -10562,7 +10791,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10578,7 +10807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da925ae2-bd0a-4526-9244-e4dbf4e40944")
-		(property "Reference" "RV1"
+		(property "Reference" "RV2"
 			(at 109.22 138.4299 0)
 			(effects
 				(font
@@ -10635,7 +10864,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "RV1")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -10715,7 +10944,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df0fe0e8-3d96-4997-a1fd-c934546e3b83")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 156.21 198.12 0)
 			(effects
 				(font
@@ -10731,7 +10960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 147.32 201.93 0)
 			(effects
 				(font
@@ -10802,7 +11031,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10818,7 +11047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2c1dee8-9e95-42da-8175-aa9c411b4968")
-		(property "Reference" "C9"
+		(property "Reference" "C5"
 			(at 96.52 137.16 90)
 			(effects
 				(font
@@ -10870,7 +11099,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C9")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10962,7 +11191,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8077f91-5690-480e-8859-a201d937ca57")
-		(property "Reference" "R16"
+		(property "Reference" "R7"
 			(at 106.68 113.03 90)
 			(effects
 				(font
@@ -10978,7 +11207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 106.68 117.602 90)
 			(effects
 				(font
@@ -11014,7 +11243,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R16")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11046,7 +11275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 138.43 132.08 0)
 			(effects
 				(font
@@ -11074,43 +11303,43 @@
 			)
 		)
 		(pin "11"
-			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec5")
+			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec8")
 		)
 		(pin "2"
-			(uuid "fe263bd5-a7f4-4e04-8992-b052b1eb6f19")
+			(uuid "fe263bd5-a7f4-4e04-8992-b052b1eb6f1a")
 		)
 		(pin "1"
-			(uuid "ebbe1361-360a-45db-8692-57e078256df7")
+			(uuid "ebbe1361-360a-45db-8692-57e078256df8")
 		)
 		(pin "5"
 			(uuid "0332fff6-6eed-4390-b6e0-c58840041fdf")
 		)
 		(pin "10"
-			(uuid "cfd9dbce-853b-4532-ba71-d0dc876265f8")
+			(uuid "cfd9dbce-853b-4532-ba71-d0dc876265fa")
 		)
 		(pin "12"
-			(uuid "6465c10d-7076-41a3-b13a-02e85051720a")
+			(uuid "6465c10d-7076-41a3-b13a-02e85051720c")
 		)
 		(pin "13"
-			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f3")
+			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f5")
 		)
 		(pin "3"
-			(uuid "c42d9074-d031-44ae-8022-16085c7ea2f2")
+			(uuid "c42d9074-d031-44ae-8022-16085c7ea2f3")
 		)
 		(pin "8"
-			(uuid "356c0bd2-bc53-4bd4-bede-681f35d8c42f")
+			(uuid "356c0bd2-bc53-4bd4-bede-681f35d8c431")
 		)
 		(pin "9"
-			(uuid "984ec20b-586d-4ad9-9d7f-904017294f0a")
+			(uuid "984ec20b-586d-4ad9-9d7f-904017294f0c")
 		)
 		(pin "14"
-			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e3")
+			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e5")
 		)
 		(pin "6"
 			(uuid "3930d457-a4a4-499f-9a33-d0fa91032268")
 		)
 		(pin "4"
-			(uuid "ce024ddc-4de7-4468-95a3-9672472a3324")
+			(uuid "ce024ddc-4de7-4468-95a3-9672472a3327")
 		)
 		(pin "7"
 			(uuid "95bc669c-2d50-42fb-8554-94e39f3fe320")
@@ -11134,7 +11363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed9da08e-196d-4805-9793-e4a86744c92e")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 161.29 78.7399 90)
 			(effects
 				(font
@@ -11194,7 +11423,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11210,7 +11439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2abf5bf-bcc8-4355-8214-73f05289b274")
-		(property "Reference" "K2"
+		(property "Reference" "K1"
 			(at 41.91 54.61 90)
 			(effects
 				(font
@@ -11255,33 +11484,33 @@
 			)
 		)
 		(pin "10"
-			(uuid "484770ba-32ba-491e-ab73-a74ad2e6c160")
+			(uuid "484770ba-32ba-491e-ab73-a74ad2e6c162")
 		)
 		(pin "2"
-			(uuid "c42ac3e8-f1ea-413c-92c6-4db50bcc01cb")
+			(uuid "c42ac3e8-f1ea-413c-92c6-4db50bcc01cd")
 		)
 		(pin "1"
-			(uuid "fa9f2ed2-7e04-45a9-aee3-87f1c4032acd")
+			(uuid "fa9f2ed2-7e04-45a9-aee3-87f1c4032acf")
 		)
 		(pin "4"
-			(uuid "65269c3d-37ca-4aa5-9275-8f1251def453")
+			(uuid "65269c3d-37ca-4aa5-9275-8f1251def455")
 		)
 		(pin "9"
-			(uuid "1d9706ef-c5df-4024-b474-caa8824f505e")
+			(uuid "1d9706ef-c5df-4024-b474-caa8824f5060")
 		)
 		(pin "7"
-			(uuid "645053d4-04e1-4249-aec7-713753024e78")
+			(uuid "645053d4-04e1-4249-aec7-713753024e7a")
 		)
 		(pin "8"
-			(uuid "f43d31fe-afad-436c-b353-24f137110c9d")
+			(uuid "f43d31fe-afad-436c-b353-24f137110c9f")
 		)
 		(pin "3"
-			(uuid "195bb0e1-63bf-4d90-9ba4-bd21212ad5a5")
+			(uuid "195bb0e1-63bf-4d90-9ba4-bd21212ad5a7")
 		)
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "K2")
+					(reference "K1")
 					(unit 3)
 				)
 			)
@@ -11297,7 +11526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7195e29-0ced-46f0-9e71-09423d3bda42")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 67.31 139.6999 0)
 			(effects
 				(font
@@ -11315,7 +11544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 62.992 140.97 90)
 			(effects
 				(font
@@ -11351,7 +11580,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R15")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11366,7 +11595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9644762-978a-4095-94f6-4e3a255a615a")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 88.9 198.12 0)
 			(effects
 				(font
@@ -11382,7 +11611,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-14_3.9x8.65mm_P1.27mm"
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 80.01 201.93 0)
 			(effects
 				(font
@@ -11453,7 +11682,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "U3")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -11484,7 +11713,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 			(at 172.72 59.69 0)
 			(effects
 				(font
@@ -11512,46 +11741,46 @@
 			)
 		)
 		(pin "11"
-			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec6")
+			(uuid "99f3ab43-ac37-491e-a4e5-30963a52eec9")
 		)
 		(pin "2"
-			(uuid "ad1d94d6-d9f4-44e0-bae4-ea46493749c6")
+			(uuid "ad1d94d6-d9f4-44e0-bae4-ea46493749c7")
 		)
 		(pin "1"
-			(uuid "8a29087d-3c27-4850-a731-b2388083d3ea")
+			(uuid "8a29087d-3c27-4850-a731-b2388083d3eb")
 		)
 		(pin "5"
-			(uuid "761c9cd6-8372-4b62-b12a-22840700513a")
+			(uuid "761c9cd6-8372-4b62-b12a-22840700513c")
 		)
 		(pin "10"
-			(uuid "cfd9dbce-853b-4532-ba71-d0dc876265f9")
+			(uuid "cfd9dbce-853b-4532-ba71-d0dc876265fb")
 		)
 		(pin "12"
-			(uuid "6465c10d-7076-41a3-b13a-02e85051720b")
+			(uuid "6465c10d-7076-41a3-b13a-02e85051720d")
 		)
 		(pin "13"
-			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f4")
+			(uuid "b355c8d6-0f30-42e2-8dc6-ed8585b104f6")
 		)
 		(pin "3"
-			(uuid "cbccfb34-771d-4c8c-994e-f092e68dad2b")
+			(uuid "cbccfb34-771d-4c8c-994e-f092e68dad2c")
 		)
 		(pin "8"
-			(uuid "356c0bd2-bc53-4bd4-bede-681f35d8c430")
+			(uuid "356c0bd2-bc53-4bd4-bede-681f35d8c432")
 		)
 		(pin "9"
-			(uuid "984ec20b-586d-4ad9-9d7f-904017294f0b")
+			(uuid "984ec20b-586d-4ad9-9d7f-904017294f0d")
 		)
 		(pin "14"
-			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e4")
+			(uuid "ce9b077f-67fc-4e17-b6c6-1984e59804e6")
 		)
 		(pin "6"
-			(uuid "8316cdb4-1d4e-4666-9cfb-6c61475d3116")
+			(uuid "8316cdb4-1d4e-4666-9cfb-6c61475d3118")
 		)
 		(pin "4"
-			(uuid "ce024ddc-4de7-4468-95a3-9672472a3325")
+			(uuid "ce024ddc-4de7-4468-95a3-9672472a3328")
 		)
 		(pin "7"
-			(uuid "e4d82c09-ef12-4398-9572-cc86df934dee")
+			(uuid "e4d82c09-ef12-4398-9572-cc86df934df0")
 		)
 		(instances
 			(project "wolpertinger"
@@ -11572,7 +11801,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcdd986b-f270-4743-af02-9eb6ee17a818")
-		(property "Reference" "RV2"
+		(property "Reference" "TR1"
 			(at 172.72 44.45 90)
 			(effects
 				(font
@@ -11627,7 +11856,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "RV2")
+					(reference "TR1")
 					(unit 1)
 				)
 			)
@@ -11643,7 +11872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fda26ed6-a515-4efb-bcda-fa3b128398db")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 33.02 83.82 0)
 			(effects
 				(font
@@ -11693,75 +11922,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 187.96 147.32 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe0ca82f-c99d-45da-b7fe-8961228dc5ef")
-		(property "Reference" "C12"
-			(at 187.96 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 187.96 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 146.3548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 187.96 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb506de7-7ff7-4750-8600-27f959c0e050")
-		)
-		(pin "2"
-			(uuid "e6d1dcc1-6feb-4d89-9023-25c08f9688df")
-		)
-		(instances
-			(project "wolpertinger"
-				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C12")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11777,7 +11938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8c03bf-9ab6-44f4-ae21-f8dec05f8f92")
-		(property "Reference" "C4"
+		(property "Reference" "C9"
 			(at 139.7 19.05 90)
 			(effects
 				(font
@@ -11829,7 +11990,7 @@
 		(instances
 			(project ""
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "C4")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11845,7 +12006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffe5d384-08d2-4e5d-b19b-d5ea22468b52")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 139.7 142.24 90)
 			(effects
 				(font
@@ -11861,7 +12022,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.7 146.812 90)
 			(effects
 				(font
@@ -11897,7 +12058,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -11913,7 +12074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fff3da0d-9780-4f5e-858a-f77c73a6e3f9")
-		(property "Reference" "R17"
+		(property "Reference" "R8"
 			(at 106.68 147.32 90)
 			(effects
 				(font
@@ -11929,7 +12090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 106.68 151.892 90)
 			(effects
 				(font
@@ -11965,7 +12126,7 @@
 		(instances
 			(project "wolpertinger"
 				(path "/1d0122ba-e230-4b95-95ea-f347c3782260"
-					(reference "R17")
+					(reference "R8")
 					(unit 1)
 				)
 			)
