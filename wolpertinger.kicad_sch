@@ -11821,7 +11821,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switches:DPDT"
 			(at 360.68 214.63 0)
 			(effects
 				(font
@@ -12212,7 +12212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switches:SPST"
 			(at 99.06 208.28 0)
 			(effects
 				(font
@@ -13871,7 +13871,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 			(at 172.72 132.08 0)
 			(effects
 				(font
@@ -14614,7 +14614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switches:DPDT"
 			(at 298.45 201.93 0)
 			(effects
 				(font
@@ -15062,7 +15062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "potentiometers:16MM_PADS.1"
 			(at 271.78 156.21 0)
 			(effects
 				(font
@@ -16933,7 +16933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 			(at 388.62 236.22 0)
 			(effects
 				(font
@@ -18142,7 +18142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 			(at 298.45 236.22 0)
 			(effects
 				(font
@@ -18293,7 +18293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "potentiometers:16MM_PADS.1"
 			(at 99.06 265.43 0)
 			(effects
 				(font
@@ -21191,7 +21191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switches:DPDT"
 			(at 271.78 201.93 0)
 			(effects
 				(font
@@ -21785,7 +21785,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "potentiometers:16MM_PADS.1"
 			(at 111.76 50.8 0)
 			(effects
 				(font
@@ -22198,7 +22198,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 			(at 360.68 236.22 0)
 			(effects
 				(font
@@ -22953,7 +22953,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "potentiometers:16MM_PADS.1"
 			(at 111.76 135.89 0)
 			(effects
 				(font
@@ -23473,7 +23473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 			(at 337.82 138.43 0)
 			(effects
 				(font
@@ -23720,7 +23720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "switches:DPDT"
 			(at 274.32 214.63 0)
 			(effects
 				(font
@@ -24562,7 +24562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 			(at 172.72 46.99 0)
 			(effects
 				(font
@@ -24701,7 +24701,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 			(at 274.32 236.22 0)
 			(effects
 				(font
