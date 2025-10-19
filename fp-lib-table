@@ -19,4 +19,5 @@
   (lib (name "transistors-BJT")(type "Eagle")(uri "${KIPRJMOD}/Effects Layouts Library 2.0/transistors-BJT.lbr")(options "")(descr ""))
   (lib (name "transistors-FET")(type "Eagle")(uri "${KIPRJMOD}/Effects Layouts Library 2.0/transistors-FET.lbr")(options "")(descr ""))
   (lib (name "transistors-GERM")(type "Eagle")(uri "${KIPRJMOD}/Effects Layouts Library 2.0/transistors-GERM.lbr")(options "")(descr ""))
+  (lib (name "CustomJacks")(type "KiCad")(uri "${KIPRJMOD}/Effects Layouts Library 2.0/CustomJacks.pretty")(options "")(descr ""))
 )

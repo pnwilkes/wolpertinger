@@ -13293,7 +13293,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "jacks:TWO_PADS"
 			(at 219.71 55.88 0)
 			(effects
 				(font
@@ -15692,7 +15692,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomJacks:Switched Mono Jack"
 			(at 63.5 260.35 0)
 			(effects
 				(font
@@ -17926,7 +17926,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LEFT OUT"
+		(property "Value" "RIGHT OUT"
 			(at 217.17 149.352 0)
 			(effects
 				(font
@@ -17935,7 +17935,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "jacks:TWO_PADS"
 			(at 219.71 140.97 0)
 			(effects
 				(font
@@ -22271,7 +22271,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "jacks:TWO_PADS"
 			(at 25.4 55.88 0)
 			(effects
 				(font
@@ -23878,7 +23878,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomJacks:Switched Mono Jack"
 			(at 24.13 140.97 0)
 			(effects
 				(font
