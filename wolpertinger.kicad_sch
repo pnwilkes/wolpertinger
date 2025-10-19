@@ -18215,7 +18215,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 212.09 201.93 0)
 			(effects
 				(font
