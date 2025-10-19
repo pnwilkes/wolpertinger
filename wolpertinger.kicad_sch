@@ -16573,7 +16573,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "jacks:BATTERY"
 			(at 314.96 77.724 0)
 			(effects
 				(font
