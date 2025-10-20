@@ -204,6 +204,154 @@
 	(net 85 "Net-(R47-Pad2)")
 	(net 86 "Net-(C13-Pad1)")
 	(net 87 "MONO IN")
+	(net 88 "Net-(SW2A-B)")
+	(footprint "jacks:TWO_PADS"
+		(layer "F.Cu")
+		(uuid "01a0e6ac-866d-4814-84ee-9b2f33542b21")
+		(at 182.776 116.729)
+		(property "Reference" "J2"
+			(at 0 -1.905 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "12812585-b2ee-43f3-86b1-9c65d3f7b00b")
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(thickness 0.1016)
+				)
+			)
+		)
+		(property "Value" "LEFT IN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "eb558517-5510-47ae-8d45-dff806bd36af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nj2fd-v"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23500247-6c07-4b93-8786-fd5301c670a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59daad1f-c0cd-4ea3-9234-65fd585a741f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/cfd1a89b-0ae4-4e9a-9709-daafc5563c9b")
+		(sheetname "/")
+		(sheetfile "wolpertinger.kicad_sch")
+		(fp_line
+			(start -2.54 -1.27)
+			(end 2.54 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1c90cb8f-898c-495f-8678-579c36da3461")
+		)
+		(fp_line
+			(start -2.54 1.27)
+			(end -2.54 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7324c207-1dbb-4aeb-bfa8-9e22babde6b8")
+		)
+		(fp_line
+			(start 2.54 -1.27)
+			(end 2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1f9b8b7f-90c4-427f-8c66-e7a0a7c67e3f")
+		)
+		(fp_line
+			(start 2.54 1.27)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50a5c478-078b-4cf6-a849-17aa8a7a2383")
+		)
+		(fp_text user "S"
+			(at -1.27 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e5cdd279-5404-4ecc-9d65-ce69ce5e45e7")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "T"
+			(at 1.42875 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f8dab6c8-90a6-4989-8973-4aa149b5cd2d")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(pad "S" thru_hole circle
+			(at -1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "GND1")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "72ade339-4090-46ba-b78e-ad029c0726e7")
+		)
+		(pad "T" thru_hole rect
+			(at 1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "BYPASS L")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "50456979-45f2-4b64-a33f-33e58269cb15")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "04c52439-0775-4c5e-bdef-0bf29b73d6eb")
@@ -3265,6 +3413,153 @@
 			)
 		)
 	)
+	(footprint "jacks:TWO_PADS"
+		(layer "F.Cu")
+		(uuid "2840ab20-e415-4318-a0d8-9c221794ae0d")
+		(at 182.776 124.063)
+		(property "Reference" "J5"
+			(at 0 -1.905 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a4db1ab3-d35b-44ce-9253-80c75fa59544")
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(thickness 0.1016)
+				)
+			)
+		)
+		(property "Value" "RIGHT OUT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "051521fa-6b45-4f63-98ee-299779d9d3e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nj2fd-v"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ff4b4ba-97ae-4b4d-a6f4-433b019e2915")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c1e8c22-b680-4be4-a264-35ba013eb86f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/85fd3594-9cb0-4ff0-a817-8fabd0b46dee")
+		(sheetname "/")
+		(sheetfile "wolpertinger.kicad_sch")
+		(fp_line
+			(start -2.54 -1.27)
+			(end 2.54 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "113b27da-8154-4d11-bb00-fddc59078c9d")
+		)
+		(fp_line
+			(start -2.54 1.27)
+			(end -2.54 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58136e65-38e0-47af-af6c-46740527166b")
+		)
+		(fp_line
+			(start 2.54 -1.27)
+			(end 2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "daaac5d4-658b-489e-84ee-b9ebe39160ba")
+		)
+		(fp_line
+			(start 2.54 1.27)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "cb984650-47d0-422a-8eec-d77e43bc382f")
+		)
+		(fp_text user "S"
+			(at -1.27 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0287ad3c-f4d8-4f27-a33f-be4759d3147d")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "T"
+			(at 1.42875 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6604214b-e197-44aa-b239-61bb6c488613")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(pad "S" thru_hole circle
+			(at -1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 41 "GND2")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "9242e5d7-bbfc-4132-bbfe-5d23450c20f2")
+		)
+		(pad "T" thru_hole rect
+			(at 1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 15 "Net-(J5-PadT)")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "d9cd4afe-7599-4b5d-b2ba-7cfabb0fc365")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 		(layer "F.Cu")
 		(uuid "29c5051e-da94-40f6-bded-1d641286e8ea")
@@ -4406,7 +4701,7 @@
 		(property "Reference" "K1"
 			(at 0.635 -3.175 0)
 			(layer "F.SilkS")
-			(uuid "deb73b0c-379d-4053-936f-5a5cf2cdf821")
+			(uuid "e23af51f-e229-4b90-a805-30f3eb3c954b")
 			(effects
 				(font
 					(size 1 1)
@@ -4417,7 +4712,7 @@
 		(property "Value" "FRT5"
 			(at 4.064 13.462 0)
 			(layer "F.Fab")
-			(uuid "e40177b1-b066-4e2d-8ed0-c4e6cf35df36")
+			(uuid "60a6404b-14ea-4852-b302-fa1415451a80")
 			(effects
 				(font
 					(size 1 1)
@@ -4430,7 +4725,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b9f3ffa-8ac4-493a-8978-820ff4b18467")
+			(uuid "45b06f81-502d-4a15-851d-6ce5de7dc6f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4443,7 +4738,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f5802f7-e73c-4c4d-b12b-14fa23423b23")
+			(uuid "25a8f75e-4bd3-4324-967d-06b491184d7a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,6 +7185,153 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "jacks:BATTERY"
+		(layer "F.Cu")
+		(uuid "4398a82f-b78a-4be6-a6c5-8d873c462f03")
+		(at 153.162 123.952)
+		(property "Reference" "J6"
+			(at -3.175 0 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bda616f4-26c5-44eb-9aa6-d49fbc9f4a97")
+			(effects
+				(font
+					(size 0.747776 0.747776)
+					(thickness 0.065024)
+				)
+			)
+		)
+		(property "Value" "Jack-DC"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "a968b046-5459-4c95-9431-7d89d991aa43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76335147-72d3-44d5-9fbc-8ba67e6ee932")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "DC Barrel Jack"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a136692-a05e-476b-9c2a-9bad163b3a45")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "BarrelJack*")
+		(path "/662f5c84-99dc-4f69-af73-44f37c438c8e")
+		(sheetname "/")
+		(sheetfile "wolpertinger.kicad_sch")
+		(fp_line
+			(start -2.54 -1.27)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7435bca1-b03b-4038-8ee8-13f41b46392e")
+		)
+		(fp_line
+			(start 2.54 -1.27)
+			(end -2.54 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "43d0fb7c-8c39-4be9-a32d-c63fda63f381")
+		)
+		(fp_line
+			(start 2.54 -1.27)
+			(end 2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1cd4511-2aa9-4d7d-9966-bf4350ea092b")
+		)
+		(fp_line
+			(start 2.54 1.27)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6d66d626-b428-4f6c-81d9-392e969fcd7c")
+		)
+		(fp_text user "-"
+			(at 0.635 1.27 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c0ab54e8-62a3-4c24-a353-f81283409b0c")
+			(effects
+				(font
+					(size 1.308608 1.308608)
+					(thickness 0.113792)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "+"
+			(at -1.905 1.27 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d9354ca6-e333-4d54-b14e-d2b82faa8988")
+			(effects
+				(font
+					(size 1.308608 1.308608)
+					(thickness 0.113792)
+				)
+				(justify left bottom)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "9c6a1080-349a-4311-ac14-3b4a53ea366c")
+		)
+		(pad "2" thru_hole rect
+			(at -1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "9V")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "ebde7ac2-864c-49a2-8aae-cbb6f48a20ac")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 		(layer "F.Cu")
@@ -12396,6 +12838,153 @@
 			)
 		)
 	)
+	(footprint "jacks:TWO_PADS"
+		(layer "F.Cu")
+		(uuid "81f43249-d9c0-4ee4-a68d-b7c81bde6fc6")
+		(at 182.776 120.396)
+		(property "Reference" "J4"
+			(at 0 -1.905 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8fbb3902-1598-4f36-809c-e860d37c7d77")
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(thickness 0.1016)
+				)
+			)
+		)
+		(property "Value" "LEFT OUT"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3cb7fbb0-4d2a-4556-bfae-a7ea1763301a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nj2fd-v"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a52968eb-8428-412c-8d8b-04378d0373ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "6.35mm (1/4 in) Vertical Jack, Non-switching mono jack (T/S)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1267ec53-afc9-42c3-a59c-38de80341498")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/1be296ac-9765-40fb-b309-2d636cfc44f2")
+		(sheetname "/")
+		(sheetfile "wolpertinger.kicad_sch")
+		(fp_line
+			(start -2.54 -1.27)
+			(end 2.54 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7399e48d-17f7-4abe-8817-c2156a779eab")
+		)
+		(fp_line
+			(start -2.54 1.27)
+			(end -2.54 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "713fc4ed-df50-4937-b1b9-b254d16d6774")
+		)
+		(fp_line
+			(start 2.54 -1.27)
+			(end 2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "564005d8-6e6f-477d-ab41-08e13b465414")
+		)
+		(fp_line
+			(start 2.54 1.27)
+			(end -2.54 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "886cf8a1-5a58-4a7e-9378-7c3957a0a577")
+		)
+		(fp_text user "T"
+			(at 1.42875 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8967532e-029a-4ee0-847c-f3e1a2555722")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "S"
+			(at -1.27 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cf6db870-22d0-478f-8672-3115dabb631b")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(pad "S" thru_hole circle
+			(at -1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 34 "GND1")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "a9fc4b12-942d-439f-a93b-3fb3b31d679b")
+		)
+		(pad "T" thru_hole rect
+			(at 1.27 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 33 "Net-(J4-PadT)")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "42ef9a08-1c91-474c-9d3a-2d24b44f8793")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 		(layer "F.Cu")
 		(uuid "84effc07-2172-4677-8696-2d9c95fa0e60")
@@ -12950,7 +13539,7 @@
 			(at 3.81 1.27 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b1a4ebef-6e49-4c3b-9a71-8fd304931cc3")
+			(uuid "a0f1aa66-0463-4ccf-855b-5fe13ca546d1")
 			(effects
 				(font
 					(size 0.89408 0.89408)
@@ -12962,7 +13551,7 @@
 		(property "Value" "DPDT HARMONIC/TREMOLO"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "bf1aea3a-202e-410b-9ded-eb668e93fa9d")
+			(uuid "18c35b8e-e03b-4ba5-89dc-5a0c050c5f05")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12974,7 +13563,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9062b228-a936-4cbf-b2c9-e6e8beabd08a")
+			(uuid "e3fdf0d8-c4ca-439b-aae7-a8008b64e9ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12986,7 +13575,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45167b26-f01f-44f6-96bb-3991e5d4c360")
+			(uuid "69838c9b-d41a-4b54-9409-99d6500f251b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13038,62 +13627,80 @@
 			(layer "F.SilkS")
 			(uuid "b12a7787-5433-473f-904f-8ea0ce2e6bd1")
 		)
-		(pad "A1" thru_hole rect
+		(pad "1" thru_hole rect
 			(at -1.27 -2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 22 "LFO out inv")
+			(pinfunction "A")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "547e47fd-4b13-4f26-8d5e-e8cc611a6796")
 		)
-		(pad "A2" thru_hole circle
+		(pad "2" thru_hole circle
 			(at -1.27 0 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 83 "Net-(SW3A-B)")
+			(pinfunction "B")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "3f60f12c-a696-49cb-9374-2543589d5884")
 		)
-		(pad "A3" thru_hole circle
+		(pad "3" thru_hole circle
 			(at -1.27 2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 49 "LFO out")
+			(pinfunction "C")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "e2459e1a-0175-4c28-9770-ba86399dbd41")
 		)
-		(pad "B1" thru_hole circle
+		(pad "4" thru_hole circle
 			(at 1.27 -2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 71 "Net-(SW2B-B)")
+			(pinfunction "A")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "73fe0680-ee17-4ac4-845c-8de412fe8c2f")
 		)
-		(pad "B2" thru_hole circle
+		(pad "5" thru_hole circle
 			(at 1.27 0 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 56 "Net-(SW3B-B)")
+			(pinfunction "B")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "168231f2-51cd-425d-b6bf-b41881d43f06")
 		)
-		(pad "B3" thru_hole circle
+		(pad "6" thru_hole circle
 			(at 1.27 2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 88 "Net-(SW2A-B)")
+			(pinfunction "C")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "d6d05f40-55d9-4cec-901a-db4c99877ef0")
@@ -16402,6 +17009,178 @@
 			)
 		)
 	)
+	(footprint "CustomJacks:Switched Mono Jack"
+		(layer "F.Cu")
+		(uuid "ac12f1a2-a695-44fe-aa9c-61332063fa17")
+		(at 190.246 120.396)
+		(property "Reference" "J3"
+			(at 0 -1.905 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "820dcbcf-bf28-40f3-87f3-1f43ad02bea2")
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(thickness 0.1016)
+				)
+			)
+		)
+		(property "Value" "EXT LFO"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "100379a4-7c3a-41d1-9cdb-dc05f3eaed35")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd528cc-8154-44a4-a5eb-57fd0c4c09fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90aa26ee-022d-4c4e-bb4d-02f6d349ddd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/584556f4-9d53-409c-b8bd-a109be0380cb")
+		(sheetname "/")
+		(sheetfile "wolpertinger.kicad_sch")
+		(fp_line
+			(start -3.81 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d0a9604f-ad82-4689-9723-b249b82524d8")
+		)
+		(fp_line
+			(start -3.81 1.27)
+			(end -3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f262c3b7-accf-422f-8b82-51874e3f8e89")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "abb18a81-7804-4a36-aaae-aedc3e3dc9d3")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end -3.81 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "36f5ca09-5776-44a0-8d72-8cb34a777c11")
+		)
+		(fp_text user "T"
+			(at 3.01625 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "804c740a-0f11-4d2a-85b8-cf4c68589ba8")
+			(effects
+				(font
+					(size 0.715264 0.715264)
+					(thickness 0.097536)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "S"
+			(at -2.54 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d9b19380-68fd-4caa-8102-52766af9727c")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "TN"
+			(at 0 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ef0840d8-2595-4eb7-9458-7a1d9640c0e1")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(pad "S" thru_hole circle
+			(at -2.54 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 58 "GND3")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "c792bb92-1727-434c-8c0b-83660e633057")
+		)
+		(pad "T" thru_hole rect
+			(at 2.54 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 32 "Net-(J3-PadT)")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "19ea9724-d715-4742-a0e0-404378464866")
+		)
+		(pad "TN" thru_hole circle
+			(at 0 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 65 "LFO")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "9d92693b-73d3-4b1b-8a8c-7dffbdf8fdca")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "ae024cfe-7fe4-49e7-b54a-f5bc5cee5d20")
@@ -17573,7 +18352,7 @@
 			(at 3.81 1.27 90)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "66576189-e17f-4cbb-af33-33c4a90acd7b")
+			(uuid "6ca14c44-afd8-44f6-8dc9-883d1face18b")
 			(effects
 				(font
 					(size 0.89408 0.89408)
@@ -17585,7 +18364,7 @@
 		(property "Value" "DPDT MONO/STEREO"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "3287e734-8e78-4646-96cd-7b18cce6e3c3")
+			(uuid "0b9ec355-5c44-4592-9b95-4a504c722133")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17597,7 +18376,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a4314ed-95b2-40a2-983e-c4393b72fdb5")
+			(uuid "cdb78e4c-d2ad-4cdc-aed7-0002e7423bf7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17609,7 +18388,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a865982-689d-4507-9498-72947bf9b9c8")
+			(uuid "f4cfbc47-35da-41f8-a242-cd36b836ad43")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17661,62 +18440,80 @@
 			(layer "F.SilkS")
 			(uuid "f90cb8fa-e855-40f1-9f4d-07345425a1d4")
 		)
-		(pad "A1" thru_hole rect
+		(pad "1" thru_hole rect
 			(at -1.27 -2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 22 "LFO out inv")
+			(pinfunction "A")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "4b336c42-14dc-4b72-8940-1c5a8b9afec0")
 		)
-		(pad "A2" thru_hole circle
+		(pad "2" thru_hole circle
 			(at -1.27 0 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 88 "Net-(SW2A-B)")
+			(pinfunction "B")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "7bc4810c-5c78-4f09-9ff7-1ef242d2248d")
 		)
-		(pad "A3" thru_hole circle
+		(pad "3" thru_hole circle
 			(at -1.27 2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 49 "LFO out")
+			(pinfunction "C")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "9fc1c2c4-dd7f-4276-8e4d-b01eed9d1059")
 		)
-		(pad "B1" thru_hole circle
+		(pad "4" thru_hole circle
 			(at 1.27 -2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 49 "LFO out")
+			(pinfunction "A")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "04ce9f50-03b5-4b61-8035-2bb908afa02f")
 		)
-		(pad "B2" thru_hole circle
+		(pad "5" thru_hole circle
 			(at 1.27 0 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 71 "Net-(SW2B-B)")
+			(pinfunction "B")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "670f8213-4639-42d7-9309-e684387ecc80")
 		)
-		(pad "B3" thru_hole circle
+		(pad "6" thru_hole circle
 			(at 1.27 2.54 180)
 			(size 2.1844 2.1844)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 22 "LFO out inv")
+			(pinfunction "C")
+			(pintype "passive")
 			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "3c358b6a-e83f-4737-ab9d-5a0d4b3e235b")
@@ -18684,7 +19481,7 @@
 		(property "Reference" "K2"
 			(at 0.635 -3.175 0)
 			(layer "F.SilkS")
-			(uuid "aee84313-84da-4120-a9be-93888251f254")
+			(uuid "1b18bde9-8e0c-45c9-8ff4-2b70a4e3a66b")
 			(effects
 				(font
 					(size 1 1)
@@ -18695,7 +19492,7 @@
 		(property "Value" "FRT5"
 			(at 4.064 13.462 0)
 			(layer "F.Fab")
-			(uuid "02b0c31c-1cc5-41e1-b4a6-1f1341e4b243")
+			(uuid "64062068-7325-47e3-8bb5-86755f2ba354")
 			(effects
 				(font
 					(size 1 1)
@@ -18708,7 +19505,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b2605074-be79-447e-be6a-1061ff7b051a")
+			(uuid "0dab201d-396c-4ce5-995a-396fa2efa760")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18721,7 +19518,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9d19cd2-4cd0-4c97-9203-bf77168c8b0d")
+			(uuid "70b3da58-e579-4e45-b13b-231591d190bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20908,6 +21705,178 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "CustomJacks:Switched Mono Jack"
+		(layer "F.Cu")
+		(uuid "f235db32-6af3-4835-89a6-348dcf9ef163")
+		(at 190.246 116.729)
+		(property "Reference" "J1"
+			(at 0 -1.905 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a1492ba5-3bd7-4f13-87d0-c8cb14433740")
+			(effects
+				(font
+					(size 0.9144 0.9144)
+					(thickness 0.1016)
+				)
+			)
+		)
+		(property "Value" "RIGHT IN"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b7f2b292-aed1-4ed3-9497-e6116cc57e4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.neutrik.com/en/product/nrj4hh-1"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7f94596-0d4b-4e33-965a-0a79cd6bb888")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Slim Jacks, 6.35mm (1/4in) mono jack, switched, half threaded nose, sleeve contact/front panel connection"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81a74163-01b0-4a13-a798-bf47a8796060")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jack*")
+		(path "/ee7d8e35-1f15-49d4-9104-6d2d7d81fb8a")
+		(sheetname "/")
+		(sheetfile "wolpertinger.kicad_sch")
+		(fp_line
+			(start -3.81 -1.27)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7d17de48-978f-4d17-bddf-deeb380e6257")
+		)
+		(fp_line
+			(start -3.81 1.27)
+			(end -3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d28f2986-c9f1-4348-84d7-99e48614136c")
+		)
+		(fp_line
+			(start 3.81 -1.27)
+			(end 3.81 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fc8d866f-5c6d-45a6-8cf2-0a8fd0c775ac")
+		)
+		(fp_line
+			(start 3.81 1.27)
+			(end -3.81 1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4c56a3b-6980-4d73-83ee-78fecdf787a5")
+		)
+		(fp_text user "S"
+			(at -2.54 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0cce5089-7fbb-4bfd-be34-bf1f5bb96b23")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "T"
+			(at 3.01625 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "308b0568-17b9-43ab-bdc9-23f0ed2a2731")
+			(effects
+				(font
+					(size 0.715264 0.715264)
+					(thickness 0.097536)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "TN"
+			(at 0 1.42875 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4bfd06dc-f4cf-4038-8014-f0c67757f468")
+			(effects
+				(font
+					(size 0.73152 0.73152)
+					(thickness 0.08128)
+				)
+				(justify bottom)
+			)
+		)
+		(pad "S" thru_hole circle
+			(at -2.54 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 41 "GND2")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "78f28dbb-fc15-4dbd-9a7a-7066c70f49a9")
+		)
+		(pad "T" thru_hole rect
+			(at 2.54 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 10 "BYPASS R")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "4fc17f3e-e296-4051-ba11-cecc51a97613")
+		)
+		(pad "TN" thru_hole circle
+			(at 0 0)
+			(size 1.9304 1.9304)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 87 "MONO IN")
+			(pintype "passive")
+			(solder_mask_margin 0.1016)
+			(thermal_bridge_angle 0)
+			(uuid "89d95820-610d-46ad-902a-aed3d6f212eb")
+		)
+		(embedded_fonts no)
 	)
 	(footprint "OptoDevice:PerkinElmer_VTL5C"
 		(layer "F.Cu")
