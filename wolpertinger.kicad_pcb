@@ -726,7 +726,7 @@
 	(footprint "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 		(layer "F.Cu")
 		(uuid "0ce4a16a-7447-43ea-bdb2-be2829e9ca7b")
-		(at 171.97 105.566)
+		(at 176.5 102.26)
 		(descr "14-lead through-hole mounted CERDIP, JEDEC MS-015-AB package, row spacing 7.62mm (300 mils), SideBrazed, LongPads, Socket, https://www.jedec.org/system/files/docs/Ms-015a.pdf")
 		(tags "THT DIP DIL CERDIP ceramic 2.54mm 7.62mm 300mil SideBrazed LongPads Socket")
 		(property "Reference" "U1"
@@ -1093,11 +1093,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0e350be6-5ded-4c9b-92b9-ab2b1e28bad3")
-		(at 182.27 100.796)
+		(at 92 86.69 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R24"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "fdab995d-44db-4cfe-a1ac-21907ecdfaee")
 			(effects
@@ -1108,7 +1108,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "b43b1834-3101-41df-891d-1d719345b8ee")
 			(effects
@@ -1119,7 +1119,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97e564f9-9ae3-4ee9-bcee-8a92182bcbb1")
@@ -1131,7 +1131,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a244963-779d-47ee-a26b-c59281e83bf6")
@@ -1148,24 +1148,24 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0c782e0a-fb87-417b-a0e4-7d010d4f6f66")
+			(uuid "7421c1e5-f490-4c97-a94c-931c8c57cc82")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c805c812-767e-40a3-9e63-8e6ebed3b670")
+			(uuid "a28f8e99-0297-4f98-8e12-c298b9b93d16")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -1178,14 +1178,24 @@
 			(uuid "f1a8d221-4138-43fe-b395-7439dde089f4")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7421c1e5-f490-4c97-a94c-931c8c57cc82")
+			(uuid "c805c812-767e-40a3-9e63-8e6ebed3b670")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0c782e0a-fb87-417b-a0e4-7d010d4f6f66")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -1196,16 +1206,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "5cad0f81-ceeb-42c7-916c-10ef6167f214")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a28f8e99-0297-4f98-8e12-c298b9b93d16")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -1250,7 +1250,7 @@
 			(uuid "c7da79a9-24e8-4c62-81e5-7067bbd190ba")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "d8622efa-f2f3-4c75-a39e-dffa2ec98a39")
 			(effects
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1271,7 +1271,7 @@
 			(uuid "68b3fef3-58d6-4628-8cfd-bd0546f6cb64")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1296,11 +1296,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "134c93f1-5b85-464e-b69a-4c09d14e4a34")
-		(at 193.04 64.346)
+		(at 119.5 121 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R27"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "a133cbc0-0d2c-4161-bb9c-9af0c64f03f7")
 			(effects
@@ -1351,44 +1351,14 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "71e3ad1d-ae4e-4eef-b9c3-bc3926477d9e")
-		)
-		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c61ef058-6c58-43f0-946b-baacde5c007a")
-		)
-		(fp_line
-			(start 0.54 1.04)
-			(end 0.54 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c38adf89-fe2c-459c-8546-6b29e56541a9")
-		)
-		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c3c26d51-1621-45f2-a177-f5671c461a74")
+			(uuid "cace6eae-3a21-4e49-b63d-00b3dbfb3279")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -1401,14 +1371,44 @@
 			(uuid "84b5bda6-13c3-4003-b5cb-a9f914a99796")
 		)
 		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cace6eae-3a21-4e49-b63d-00b3dbfb3279")
+			(uuid "c3c26d51-1621-45f2-a177-f5671c461a74")
+		)
+		(fp_line
+			(start 0.54 1.04)
+			(end 0.54 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c38adf89-fe2c-459c-8546-6b29e56541a9")
+		)
+		(fp_line
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c61ef058-6c58-43f0-946b-baacde5c007a")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "71e3ad1d-ae4e-4eef-b9c3-bc3926477d9e")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -1422,16 +1422,6 @@
 			(uuid "7d710181-96a9-4467-9493-2a047a7ba7a6")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7ab9db38-7aa0-43d8-bdbc-bc711d8c707f")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -1440,6 +1430,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "3135c119-741b-49b5-bd3e-75dfd25fd1db")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ab9db38-7aa0-43d8-bdbc-bc711d8c707f")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -1464,7 +1464,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -1474,7 +1474,7 @@
 			(uuid "60854e29-1092-462d-bdd6-297c98f009d0")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -2040,7 +2040,7 @@
 	(footprint "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 		(layer "F.Cu")
 		(uuid "1ed0fcea-2384-4639-9536-e80d9d7ab40d")
-		(at 232.59 64.346)
+		(at 92 73.5)
 		(descr "C, Rect series, Radial, pin pitch=2.50mm, length*width=4.6*3.0mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
 		(tags "C Rect series Radial pin pitch 2.50mm length 4.6mm width 3.0mm Capacitor")
 		(property "Reference" "C3"
@@ -2203,11 +2203,11 @@
 	(footprint "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 		(layer "F.Cu")
 		(uuid "1f854219-32c7-4947-94d8-99338fa67530")
-		(at 247.242 69.048)
+		(at 115 84.5)
 		(descr "C, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.50mm diameter 6.3mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C17"
-			(at 1.25 -4.4 0)
+			(at 1.25 -2 0)
 			(layer "F.SilkS")
 			(uuid "38c9cd88-8c86-46a9-89f6-a25aac55f5c2")
 			(effects
@@ -3421,7 +3421,7 @@
 	(footprint "jacks:TWO_PADS"
 		(layer "F.Cu")
 		(uuid "2840ab20-e415-4318-a0d8-9c221794ae0d")
-		(at 273.108 126.721)
+		(at 101.27 67.5)
 		(property "Reference" "J5"
 			(at 0 -1.905 0)
 			(unlocked yes)
@@ -4154,11 +4154,11 @@
 	(footprint "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 		(layer "F.Cu")
 		(uuid "2e4fadf8-4ce5-42e5-84de-baa20020963c")
-		(at 254.242 82.298)
+		(at 113.75 114)
 		(descr "C, Rect series, Radial, pin pitch=2.50mm, length*width=4.6*3.0mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
 		(tags "C Rect series Radial pin pitch 2.50mm length 4.6mm width 3.0mm Capacitor")
 		(property "Reference" "C15"
-			(at 1.25 -2.75 0)
+			(at 5.25 0 0)
 			(layer "F.SilkS")
 			(uuid "4f839d22-d854-4189-9752-1190c5895c2d")
 			(effects
@@ -5787,11 +5787,11 @@
 	(footprint "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 		(layer "F.Cu")
 		(uuid "387edad8-0fbd-459c-bd83-a75018226b59")
-		(at 219.24 27.646)
+		(at 108.5 128 90)
 		(descr "Potentiometer, vertical, Piher PT-6-V, http://www.piher-nacesa.com/pdf/11-PT6v03.pdf")
 		(tags "Potentiometer vertical Piher PT-6-V")
 		(property "Reference" "TR3"
-			(at 2.5 -7.06 0)
+			(at 2.5 -2.495 0)
 			(layer "F.SilkS")
 			(uuid "54f3d139-297b-4885-906e-047b85cbd8c1")
 			(effects
@@ -5802,7 +5802,7 @@
 			)
 		)
 		(property "Value" "LO L Trim 5k"
-			(at 2.5 2.06 0)
+			(at 2.5 2.06 90)
 			(layer "F.Fab")
 			(uuid "75d2a7ac-e498-4b0a-8e5d-0b4677cfcb3f")
 			(effects
@@ -5813,7 +5813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "41473aed-ac68-4db0-afad-35a6f14641b6")
@@ -5825,7 +5825,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6b20efb-430a-487a-9168-146d0229a409")
@@ -5841,17 +5841,6 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
-		(fp_arc
-			(start -0.378 -0.969)
-			(mid -0.76 -2.5)
-			(end -0.378 -4.031)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2a3c83fe-b568-460c-a3fd-5e39ae29f89c")
-		)
 		(fp_arc
 			(start 0.969 -5.378)
 			(mid 3.818477 -5.481789)
@@ -5874,6 +5863,17 @@
 			(layer "F.SilkS")
 			(uuid "d25b04bc-7d4b-4d7d-9b33-aa5871768801")
 		)
+		(fp_arc
+			(start -0.378 -0.969)
+			(mid -0.76 -2.5)
+			(end -0.378 -4.031)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a3c83fe-b568-460c-a3fd-5e39ae29f89c")
+		)
 		(fp_rect
 			(start -1.06 -6.06)
 			(end 6.06 1.07)
@@ -5887,17 +5887,6 @@
 		)
 		(fp_circle
 			(center 2.5 -2.5)
-			(end 3.4 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "6c261ab3-76ec-4278-9d85-7e2456f05acd")
-		)
-		(fp_circle
-			(center 2.5 -2.5)
 			(end 5.65 -2.5)
 			(stroke
 				(width 0.1)
@@ -5907,8 +5896,19 @@
 			(layer "F.Fab")
 			(uuid "67c6863c-b968-4248-8531-243abbac6fa9")
 		)
+		(fp_circle
+			(center 2.5 -2.5)
+			(end 3.4 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "6c261ab3-76ec-4278-9d85-7e2456f05acd")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0.55 -2.5 90)
+			(at 0.55 -2.5 0)
 			(layer "F.Fab")
 			(uuid "54f034f5-e0b6-4fbd-9ab1-086567658e11")
 			(effects
@@ -5919,7 +5919,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -5930,7 +5930,7 @@
 			(uuid "47a0dea2-3cfd-47cf-b451-49e1327ebadb")
 		)
 		(pad "2" thru_hole circle
-			(at 5 -2.5)
+			(at 5 -2.5 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -5941,7 +5941,7 @@
 			(uuid "02017e58-238a-40db-87dd-ba13352a8b1e")
 		)
 		(pad "3" thru_hole circle
-			(at 0 -5)
+			(at 0 -5 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -6252,11 +6252,11 @@
 	(footprint "Capacitor_THT:C_Radial_D4.0mm_H7.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "3de989d7-8794-4380-9a30-cf059225cbf3")
-		(at 260.592 87.198)
+		(at 117.5 92.25 90)
 		(descr "C, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=7mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 1.50mm diameter 4mm height 7mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C13"
-			(at 0.75 -3.25 0)
+			(at -2.25 0 0)
 			(layer "F.SilkS")
 			(uuid "5374c31c-425a-4b7f-b6ee-231454cdcaa9")
 			(effects
@@ -6267,7 +6267,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0.75 3.25 0)
+			(at 0.75 3.25 90)
 			(layer "F.Fab")
 			(uuid "2e38cb90-ac22-49f3-bcc5-32fe73c91d77")
 			(effects
@@ -6278,7 +6278,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97deee45-d5b1-4f9f-8197-7d1073d15800")
@@ -6290,7 +6290,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "14fcffc4-6d6b-4afc-8fce-2af88bbeaa28")
@@ -6340,7 +6340,7 @@
 			(uuid "05699b6c-c065-4a86-b795-9d15e128b452")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0.75 0 0)
+			(at 0.75 0 90)
 			(layer "F.Fab")
 			(uuid "f40c157f-8ab2-4bd7-a585-ad496d475604")
 			(effects
@@ -6351,7 +6351,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.2 1.2)
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
@@ -6361,7 +6361,7 @@
 			(uuid "4d170f20-113d-4d61-b36d-ac9c387012db")
 		)
 		(pad "2" thru_hole circle
-			(at 1.5 0)
+			(at 1.5 0 90)
 			(size 1.2 1.2)
 			(drill 0.6)
 			(layers "*.Cu" "*.Mask")
@@ -7504,11 +7504,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "47c88e4a-cfd6-46d5-a50b-92910714a987")
-		(at 182.27 60.296)
+		(at 92 104.12 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R14"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "3b9ee0e5-065e-4453-9552-f7b9e40f85d1")
 			(effects
@@ -7519,7 +7519,7 @@
 			)
 		)
 		(property "Value" "15K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "8d34b802-1381-49d7-adfd-b0ce5024a1d0")
 			(effects
@@ -7530,7 +7530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6168ce73-6990-44f8-ac1f-939e6e8ee61d")
@@ -7542,7 +7542,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0bce9354-bb3f-4796-9be5-d92454844541")
@@ -7558,6 +7558,16 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 7.08 -1.37)
+			(end 7.08 -1.04)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "905622ff-2885-4c64-b4f7-66afdfeae9db")
+		)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -7589,26 +7599,6 @@
 			(uuid "2f754ce3-d7ca-474f-be75-698ded3ed565")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dd491705-2102-4408-8500-2906e6a3fa5e")
-		)
-		(fp_line
-			(start 7.08 -1.37)
-			(end 7.08 -1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "905622ff-2885-4c64-b4f7-66afdfeae9db")
-		)
-		(fp_line
 			(start 7.08 1.37)
 			(end 7.08 1.04)
 			(stroke
@@ -7617,6 +7607,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4da3070a-6026-49cb-b2b9-bbd7f1cd577b")
+		)
+		(fp_line
+			(start 0.54 1.37)
+			(end 7.08 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dd491705-2102-4408-8500-2906e6a3fa5e")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -7630,16 +7630,6 @@
 			(uuid "d06f0216-ede9-4518-aa43-10cbebcc240b")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4f97a602-74cc-40d5-a222-1d2ee0fdeaf0")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -7648,6 +7638,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "ff29c203-9695-4cfb-8a36-c00c77425f46")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f97a602-74cc-40d5-a222-1d2ee0fdeaf0")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -7661,7 +7661,7 @@
 			(uuid "bcf35840-15e8-4194-8bac-255e044ba72e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "b7c78357-676c-4278-954a-8ed2a5d7a44d")
 			(effects
@@ -7672,7 +7672,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7682,7 +7682,7 @@
 			(uuid "ca6149cc-5b5e-434a-b8f1-d5cfb203e8bd")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7707,11 +7707,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "47e7f8aa-97a3-4970-b67f-c412e11a352a")
-		(at 171.5 84.596)
+		(at 108 71.19 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R8"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "b52a5e3a-b06a-4fc7-886e-18dca29585ce")
 			(effects
@@ -7722,7 +7722,7 @@
 			)
 		)
 		(property "Value" "15K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "7e8c4f61-1234-4e70-8ad3-da632a34a35b")
 			(effects
@@ -7733,7 +7733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9995163d-6ded-4cac-99ec-60e8d590a90e")
@@ -7745,7 +7745,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "86b36c51-8169-4adb-9be7-1aa2ee10a97c")
@@ -7762,24 +7762,24 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "76994ddd-73ef-46a5-8d18-f5b965c0daed")
+			(uuid "9eabfdc1-ea8b-4b25-8592-ba01b381af80")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7dbf85b7-7f76-4d65-85c4-5f0019f2f6ec")
+			(uuid "651e98ed-c47c-4bd4-bc29-bb1f88190f48")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -7792,14 +7792,24 @@
 			(uuid "4ed76391-ce4c-4145-9aa6-6edabd7f5373")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9eabfdc1-ea8b-4b25-8592-ba01b381af80")
+			(uuid "7dbf85b7-7f76-4d65-85c4-5f0019f2f6ec")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "76994ddd-73ef-46a5-8d18-f5b965c0daed")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -7810,16 +7820,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "716c6dfc-f337-49d4-a939-6fe5061446e8")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "651e98ed-c47c-4bd4-bc29-bb1f88190f48")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -7864,7 +7864,7 @@
 			(uuid "344906c2-7111-48fb-8e4a-834e018b100d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "a6d33d72-c806-4a87-b108-cee4062d6e4f")
 			(effects
@@ -7875,7 +7875,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -7885,7 +7885,7 @@
 			(uuid "c8bc9f2f-2cc2-4048-80ef-834be361f844")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -8130,11 +8130,11 @@
 	(footprint "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 		(layer "F.Cu")
 		(uuid "4f319b88-76c5-4658-aa0d-291c0b84368a")
-		(at 254.242 73.198)
+		(at 113.75 107)
 		(descr "C, Rect series, Radial, pin pitch=2.50mm, length*width=4.6*3.0mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
 		(tags "C Rect series Radial pin pitch 2.50mm length 4.6mm width 3.0mm Capacitor")
 		(property "Reference" "C11"
-			(at 1.25 -2.75 0)
+			(at 5.25 0 0)
 			(layer "F.SilkS")
 			(uuid "bce4a4b9-4e4a-4522-bd15-fc50c3d4f58b")
 			(effects
@@ -8647,11 +8647,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "51219f7f-d7b5-409c-bd76-dd4d90f635e3")
-		(at 193.04 84.596)
+		(at 115.5 96.38 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R32"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "052dc48b-0885-48c0-bd3e-f4205232aab8")
 			(effects
@@ -8662,7 +8662,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "3e60c7be-3aa2-470d-a216-f2bdbd43e46b")
 			(effects
@@ -8673,7 +8673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "93b6afe1-04b5-4859-aa46-0c77e20d48bc")
@@ -8685,7 +8685,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e13d19d-4bbb-4898-a718-b417b9ae77c5")
@@ -8702,24 +8702,24 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2340da59-1c67-4d94-a33c-0d4a09c3e60b")
+			(uuid "154eeabe-dc69-4865-92ba-6d34c318a94c")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d38f3c9d-f4f6-40bd-ab10-68c5b6c798da")
+			(uuid "ef1f2830-38d6-42c9-b7f0-a015f19cd478")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -8732,14 +8732,24 @@
 			(uuid "a7ac9393-822c-44a0-bac5-bd710b65fee1")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "154eeabe-dc69-4865-92ba-6d34c318a94c")
+			(uuid "d38f3c9d-f4f6-40bd-ab10-68c5b6c798da")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2340da59-1c67-4d94-a33c-0d4a09c3e60b")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -8750,16 +8760,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "944e06cb-0792-471a-ac21-6cbb27aa60db")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ef1f2830-38d6-42c9-b7f0-a015f19cd478")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -8804,7 +8804,7 @@
 			(uuid "9bf0e938-ef07-4b6a-917c-f3bce20ead5e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "3bc0a0a1-5b9b-4dea-898f-7d67e47a21fe")
 			(effects
@@ -8815,7 +8815,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -8825,7 +8825,7 @@
 			(uuid "1c5e97e3-08b5-49bd-8bdc-bf9b9a6c4a1c")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -9582,11 +9582,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "641359e2-4d06-4421-ab95-e8d5501e6ede")
-		(at 171.5 60.296)
+		(at 92 76.5 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
-			(at 3.81 -2.37 0)
+			(at 3.81 -2.37 90)
 			(layer "F.SilkS")
 			(uuid "e3e38bcd-fecb-4f77-84b5-be7c6183afcb")
 			(effects
@@ -9597,7 +9597,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "8f30f5b2-c2f1-4cf1-8c59-b2a219a970a0")
 			(effects
@@ -9608,7 +9608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e525d182-124b-4294-bd2a-718ee061c022")
@@ -9620,7 +9620,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6628ed06-e212-450a-8621-c6a5a26735a3")
@@ -9637,24 +9637,24 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "192dc457-7d81-419b-86ed-3296b7504557")
+			(uuid "08c4ace5-22a4-479f-850e-a360a4054622")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0641a791-f7c2-4fd8-b972-3f675c0196ce")
+			(uuid "4b062eaa-e557-4977-90c2-27d71e39a12c")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -9667,14 +9667,24 @@
 			(uuid "78645526-d0a8-4d12-ba67-916b6e65a9be")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "08c4ace5-22a4-479f-850e-a360a4054622")
+			(uuid "0641a791-f7c2-4fd8-b972-3f675c0196ce")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "192dc457-7d81-419b-86ed-3296b7504557")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -9685,16 +9695,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c3403379-9482-4153-8683-2ee959ba2be7")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4b062eaa-e557-4977-90c2-27d71e39a12c")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -9739,7 +9739,7 @@
 			(uuid "eaf20f0f-6c5e-42c2-94cf-72ef091eb7da")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "0abeb89e-7c3c-4b47-9a8d-e6c20cc4ddf6")
 			(effects
@@ -9750,7 +9750,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -9760,7 +9760,7 @@
 			(uuid "a5ece26f-596f-4f9c-a3c7-a540511d9fe9")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -10614,11 +10614,11 @@
 	(footprint "OptoDevice:PerkinElmer_VTL5C"
 		(layer "F.Cu")
 		(uuid "6fb5ae90-b1f6-4e44-851c-ab612bbd6f82")
-		(at 214.36 92.396)
+		(at 94.2 121 90)
 		(descr "Axial Vactrol (http://www.qsl.net/wa1ion/vactrol/vactrol.pdf)")
 		(tags "vactrol")
 		(property "Reference" "U8"
-			(at 7.5 -4.1 0)
+			(at 7.5 1.9 0)
 			(layer "F.SilkS")
 			(uuid "dba83dc0-3329-474a-9f57-2bb87b70bf07")
 			(effects
@@ -10629,7 +10629,7 @@
 			)
 		)
 		(property "Value" "VTL5C"
-			(at 7.5 7.9 0)
+			(at 7.5 7.9 90)
 			(layer "F.Fab")
 			(uuid "7cc8b8b5-9e3b-4c23-9d8e-e3418a8bc2e4")
 			(effects
@@ -10640,7 +10640,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.qsl.net/wa1ion/vactrol/vactrol.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10653,7 +10653,7 @@
 			)
 		)
 		(property "Description" "Low Cost Axial Vactrols"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -10671,24 +10671,14 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 2.49 -0.53)
-			(end 2.49 6.91)
+			(start 12.51 -3.11)
+			(end 5.07 -3.11)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d72bf984-3c81-4f6a-b62a-ec38e83a830b")
-		)
-		(fp_line
-			(start 2.49 6.91)
-			(end 12.51 6.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "30641773-9fa4-4e52-8660-e10a96a9c681")
+			(uuid "72b5754d-d7f7-4948-b5e5-af30a5e129b7")
 		)
 		(fp_line
 			(start 5.07 -3.11)
@@ -10701,14 +10691,14 @@
 			(uuid "df95e958-2e18-4c11-960f-7276978821f6")
 		)
 		(fp_line
-			(start 12.51 -3.11)
-			(end 5.07 -3.11)
+			(start 2.49 -0.53)
+			(end 2.49 6.91)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "72b5754d-d7f7-4948-b5e5-af30a5e129b7")
+			(uuid "d72bf984-3c81-4f6a-b62a-ec38e83a830b")
 		)
 		(fp_line
 			(start 12.51 6.91)
@@ -10721,54 +10711,24 @@
 			(uuid "c673ad40-f0df-4f22-bdc8-b11f38346b29")
 		)
 		(fp_line
-			(start -0.83 4.63)
-			(end -0.83 -0.83)
+			(start 2.49 6.91)
+			(end 12.51 6.91)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "a559d3ae-56ef-4dbb-b394-935a16a440f4")
+			(layer "F.SilkS")
+			(uuid "30641773-9fa4-4e52-8660-e10a96a9c681")
 		)
 		(fp_line
-			(start 2.3 4.63)
-			(end -0.83 4.63)
+			(start 12.7 -3.3)
+			(end 12.7 -1.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a7fa7c25-008e-4ed3-bf73-19660bf608b2")
-		)
-		(fp_line
-			(start 2.3 7.1)
-			(end 2.3 4.63)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2614c8db-f009-435e-9838-3ba89303f0f2")
-		)
-		(fp_line
-			(start 2.53 -0.83)
-			(end -0.83 -0.83)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "45bf34e7-020c-4c2f-82ea-fa53690e376c")
-		)
-		(fp_line
-			(start 2.53 -0.83)
-			(end 5 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "83878d69-5c78-49c7-afa3-8d68cdac249e")
+			(uuid "be4a2011-4b26-40ef-80a3-d7e2d9c33307")
 		)
 		(fp_line
 			(start 5 -3.3)
@@ -10781,14 +10741,74 @@
 			(uuid "5835654a-c727-462f-bb29-8bc7cdf167fc")
 		)
 		(fp_line
-			(start 12.7 -3.3)
+			(start 15.83 -1.47)
 			(end 12.7 -1.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "be4a2011-4b26-40ef-80a3-d7e2d9c33307")
+			(uuid "b8f586f2-86cd-491b-bfc5-e867cc1b8318")
+		)
+		(fp_line
+			(start 2.53 -0.83)
+			(end 5 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "83878d69-5c78-49c7-afa3-8d68cdac249e")
+		)
+		(fp_line
+			(start 2.53 -0.83)
+			(end -0.83 -0.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "45bf34e7-020c-4c2f-82ea-fa53690e376c")
+		)
+		(fp_line
+			(start 2.3 4.63)
+			(end -0.83 4.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a7fa7c25-008e-4ed3-bf73-19660bf608b2")
+		)
+		(fp_line
+			(start -0.83 4.63)
+			(end -0.83 -0.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a559d3ae-56ef-4dbb-b394-935a16a440f4")
+		)
+		(fp_line
+			(start 15.83 5.27)
+			(end 15.83 -1.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "97cd2f0d-2aa6-4887-a96e-01b0d1c2ea09")
+		)
+		(fp_line
+			(start 15.83 5.27)
+			(end 12.7 5.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bd7516b1-fb46-4f24-9b78-f073a7f2fa9f")
 		)
 		(fp_line
 			(start 12.7 5.27)
@@ -10811,34 +10831,54 @@
 			(uuid "304d188b-b3c3-4c1d-b35c-1092f59ea0c6")
 		)
 		(fp_line
-			(start 15.83 -1.47)
-			(end 12.7 -1.47)
+			(start 2.3 7.1)
+			(end 2.3 4.63)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b8f586f2-86cd-491b-bfc5-e867cc1b8318")
+			(uuid "2614c8db-f009-435e-9838-3ba89303f0f2")
 		)
 		(fp_line
-			(start 15.83 5.27)
-			(end 12.7 5.27)
+			(start 12.45 -3.05)
+			(end 12.45 6.85)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "bd7516b1-fb46-4f24-9b78-f073a7f2fa9f")
+			(layer "F.Fab")
+			(uuid "7e041e75-b685-498e-9a25-1a7746bf1ec8")
 		)
 		(fp_line
-			(start 15.83 5.27)
-			(end 15.83 -1.47)
+			(start 5.1 -3.05)
+			(end 12.45 -3.05)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "97cd2f0d-2aa6-4887-a96e-01b0d1c2ea09")
+			(layer "F.Fab")
+			(uuid "eb304dc4-cd06-4a1f-af6d-5faab0b900ee")
+		)
+		(fp_line
+			(start 5.1 -3.05)
+			(end 2.55 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0f1b5fb2-1598-44ad-8c54-261962ece756")
+		)
+		(fp_line
+			(start 14.3 -0.64)
+			(end 12.45 -0.64)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "532dd84a-b796-426b-a7e2-efbca4469b5a")
 		)
 		(fp_line
 			(start 0.7 0.25)
@@ -10861,44 +10901,14 @@
 			(uuid "86d65f69-7388-4725-b85b-e007103841d9")
 		)
 		(fp_line
-			(start 2.55 6.85)
-			(end 2.55 -0.5)
+			(start 14.3 4.44)
+			(end 12.45 4.44)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6407732e-8516-41fd-a766-45a12eb2c4b3")
-		)
-		(fp_line
-			(start 5.1 -3.05)
-			(end 2.55 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0f1b5fb2-1598-44ad-8c54-261962ece756")
-		)
-		(fp_line
-			(start 5.1 -3.05)
-			(end 12.45 -3.05)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "eb304dc4-cd06-4a1f-af6d-5faab0b900ee")
-		)
-		(fp_line
-			(start 12.45 -3.05)
-			(end 12.45 6.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7e041e75-b685-498e-9a25-1a7746bf1ec8")
+			(uuid "d6f87c4d-a250-4ea2-a81d-3ad8ad0be748")
 		)
 		(fp_line
 			(start 12.45 6.85)
@@ -10911,27 +10921,17 @@
 			(uuid "158b7183-6fab-40ed-a002-1ea491cc1dcb")
 		)
 		(fp_line
-			(start 14.3 -0.64)
-			(end 12.45 -0.64)
+			(start 2.55 6.85)
+			(end 2.55 -0.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "532dd84a-b796-426b-a7e2-efbca4469b5a")
-		)
-		(fp_line
-			(start 14.3 4.44)
-			(end 12.45 4.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d6f87c4d-a250-4ea2-a81d-3ad8ad0be748")
+			(uuid "6407732e-8516-41fd-a766-45a12eb2c4b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 1.9 0)
+			(at 7.5 1.9 90)
 			(layer "F.Fab")
 			(uuid "741f1568-ec33-44c6-a829-a00caaa01a6a")
 			(effects
@@ -10942,7 +10942,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -10954,7 +10954,7 @@
 			(uuid "f49eaa23-7c90-4007-b060-cf2c3f2a2c63")
 		)
 		(pad "2" thru_hole circle
-			(at 0 3.8)
+			(at 0 3.8 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -10965,7 +10965,7 @@
 			(uuid "1f70fd82-c977-4268-ac05-2723655d37e0")
 		)
 		(pad "3" thru_hole circle
-			(at 15 -0.64)
+			(at 15 -0.64 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -10975,7 +10975,7 @@
 			(uuid "8f821cb5-c678-4e2a-856d-4dcfed014a6d")
 		)
 		(pad "4" thru_hole circle
-			(at 15 4.44)
+			(at 15 4.44 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -11000,7 +11000,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "742c06d3-4fd4-439c-93f7-4efc40ac1db2")
-		(at 220.5156 39.8472)
+		(at 119.5 127 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R36"
@@ -11055,44 +11055,14 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "24f46d6e-12c0-400b-a955-c03459ee0153")
-		)
-		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7bbb1b23-e38d-492b-9777-628c93d60832")
-		)
-		(fp_line
-			(start 0.54 1.04)
-			(end 0.54 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "98c61f35-3c5e-4d08-822d-4471aa3d5422")
-		)
-		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a29069a0-91fe-42c9-ad20-f6f920df2a31")
+			(uuid "7ae5ebd1-59c3-4ece-b923-f90d51aa99b4")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -11105,14 +11075,44 @@
 			(uuid "e3f9c6d9-df6f-4f71-a634-9e216ed44dc2")
 		)
 		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7ae5ebd1-59c3-4ece-b923-f90d51aa99b4")
+			(uuid "a29069a0-91fe-42c9-ad20-f6f920df2a31")
+		)
+		(fp_line
+			(start 0.54 1.04)
+			(end 0.54 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98c61f35-3c5e-4d08-822d-4471aa3d5422")
+		)
+		(fp_line
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7bbb1b23-e38d-492b-9777-628c93d60832")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "24f46d6e-12c0-400b-a955-c03459ee0153")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -11126,16 +11126,6 @@
 			(uuid "9e478ce3-ab9e-407a-a487-db4bd52e1ba9")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "941cb594-1f41-4753-bc56-0319d2de89c0")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -11144,6 +11134,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "7343dea6-8cf1-480b-84c3-8d7d734929ac")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "941cb594-1f41-4753-bc56-0319d2de89c0")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -11168,7 +11168,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -11178,7 +11178,7 @@
 			(uuid "f9951f5f-bc2a-4aeb-b6c2-8caeb378c9a2")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -12277,7 +12277,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7e5563e3-38bd-49d2-87ad-a79deb697ad6")
-		(at 182.27 88.646)
+		(at 155.69 106)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R21"
@@ -12643,11 +12643,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "803bc4d6-190b-4b8e-ba3f-ec61e70b9e93")
-		(at 193.04 88.646)
+		(at 118.5 104 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R33"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "70e9ecc3-71dc-423d-b332-6b6a41869a54")
 			(effects
@@ -12658,7 +12658,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "e6fbf35c-ddda-404d-b686-964dfc8790e6")
 			(effects
@@ -12669,7 +12669,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6a79606-326c-44df-a0f9-442af9079289")
@@ -12681,7 +12681,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "afc8215d-f6e5-4397-ad97-2363c54ea58d")
@@ -12697,6 +12697,16 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 7.08 -1.37)
+			(end 7.08 -1.04)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d67f0cb6-395c-44fa-ab24-62abf45b540d")
+		)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -12728,26 +12738,6 @@
 			(uuid "dfd8cd41-c822-4a95-a49a-fb7c35c250b2")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "476e0e00-bc71-4b94-94ff-7d2faa36e739")
-		)
-		(fp_line
-			(start 7.08 -1.37)
-			(end 7.08 -1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d67f0cb6-395c-44fa-ab24-62abf45b540d")
-		)
-		(fp_line
 			(start 7.08 1.37)
 			(end 7.08 1.04)
 			(stroke
@@ -12756,6 +12746,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "d6384946-d048-4bd9-832c-00024317870e")
+		)
+		(fp_line
+			(start 0.54 1.37)
+			(end 7.08 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "476e0e00-bc71-4b94-94ff-7d2faa36e739")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -12769,16 +12769,6 @@
 			(uuid "a6b78188-2da4-4d6c-a9c1-121411f6f8f1")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "475d91d9-52be-4a99-ab85-3774370a478c")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -12787,6 +12777,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "173497f0-1eae-401b-904d-5737c3673c0f")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "475d91d9-52be-4a99-ab85-3774370a478c")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -12800,7 +12800,7 @@
 			(uuid "1957c74b-cd49-4783-8ce3-c2a024dcb982")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "91099447-2dc1-45b0-95db-3bf876a2b0b3")
 			(effects
@@ -12811,7 +12811,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -12821,7 +12821,7 @@
 			(uuid "87282fe7-69da-427f-af36-2978011bdc24")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -15043,11 +15043,11 @@
 	(footprint "Package_DIP:CERDIP-14_W7.62mm_SideBrazed_LongPads_Socket"
 		(layer "F.Cu")
 		(uuid "97bc46ed-703e-48ae-a7f4-30eff6844acf")
-		(at 200.406 132.334)
+		(at 98.38 87.5)
 		(descr "14-lead through-hole mounted CERDIP, JEDEC MS-015-AB package, row spacing 7.62mm (300 mils), SideBrazed, LongPads, Socket, https://www.jedec.org/system/files/docs/Ms-015a.pdf")
 		(tags "THT DIP DIL CERDIP ceramic 2.54mm 7.62mm 300mil SideBrazed LongPads Socket")
 		(property "Reference" "U3"
-			(at 3.81 -2.965 0)
+			(at 3.81 7.62 0)
 			(layer "F.SilkS")
 			(uuid "de64d3e6-f68d-48a3-a174-52aa3073aefe")
 			(effects
@@ -15622,11 +15622,11 @@
 	(footprint "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 		(layer "F.Cu")
 		(uuid "9f3b321f-8fbb-4aa5-b63f-f650f3056f3c")
-		(at 227.41 27.646)
+		(at 98 128 90)
 		(descr "Potentiometer, vertical, Piher PT-6-V, http://www.piher-nacesa.com/pdf/11-PT6v03.pdf")
 		(tags "Potentiometer vertical Piher PT-6-V")
 		(property "Reference" "TR4"
-			(at 2.5 -7.06 0)
+			(at 2.5 -2.495 0)
 			(layer "F.SilkS")
 			(uuid "61373f35-89cd-48a0-b65b-d032e7d2e17d")
 			(effects
@@ -15637,7 +15637,7 @@
 			)
 		)
 		(property "Value" "HI L Trim 5k"
-			(at 2.5 2.06 0)
+			(at 2.5 2.06 90)
 			(layer "F.Fab")
 			(uuid "0eb90fb1-d95c-4784-a924-628e69410ec5")
 			(effects
@@ -15648,7 +15648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7407ffb0-bb2e-4642-a7d5-a276e6a1ed20")
@@ -15660,7 +15660,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e68d5c74-00f5-4ee0-80f4-b99805fdf0f3")
@@ -15676,17 +15676,6 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
-		(fp_arc
-			(start -0.378 -0.969)
-			(mid -0.76 -2.5)
-			(end -0.378 -4.031)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "66fd91a7-dc72-406c-9629-94053a14af04")
-		)
 		(fp_arc
 			(start 0.969 -5.378)
 			(mid 3.818477 -5.481789)
@@ -15709,6 +15698,17 @@
 			(layer "F.SilkS")
 			(uuid "96f08158-7bd0-4314-a8c3-e0105394499d")
 		)
+		(fp_arc
+			(start -0.378 -0.969)
+			(mid -0.76 -2.5)
+			(end -0.378 -4.031)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "66fd91a7-dc72-406c-9629-94053a14af04")
+		)
 		(fp_rect
 			(start -1.06 -6.06)
 			(end 6.06 1.07)
@@ -15722,17 +15722,6 @@
 		)
 		(fp_circle
 			(center 2.5 -2.5)
-			(end 3.4 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "314e5ded-52e8-42cb-8fdb-d3c468a1ed8a")
-		)
-		(fp_circle
-			(center 2.5 -2.5)
 			(end 5.65 -2.5)
 			(stroke
 				(width 0.1)
@@ -15742,8 +15731,19 @@
 			(layer "F.Fab")
 			(uuid "f1909e91-881c-4048-b61a-b0d97a4047c0")
 		)
+		(fp_circle
+			(center 2.5 -2.5)
+			(end 3.4 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "314e5ded-52e8-42cb-8fdb-d3c468a1ed8a")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0.55 -2.5 90)
+			(at 0.55 -2.5 0)
 			(layer "F.Fab")
 			(uuid "6e08d17c-2777-4a8f-b54b-6828f87330ad")
 			(effects
@@ -15754,7 +15754,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -15765,7 +15765,7 @@
 			(uuid "4396135d-4bbd-4b79-8fd5-9741694d0afd")
 		)
 		(pad "2" thru_hole circle
-			(at 5 -2.5)
+			(at 5 -2.5 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -15776,7 +15776,7 @@
 			(uuid "9a93a655-2405-4922-848a-4495948db6a0")
 		)
 		(pad "3" thru_hole circle
-			(at 0 -5)
+			(at 0 -5 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -15802,11 +15802,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a5588544-397a-465a-918e-025120dd48a9")
-		(at 171.5 68.396)
+		(at 95 94.31 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "ad934035-1aae-4d99-b9aa-21656655c576")
 			(effects
@@ -15817,7 +15817,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "d6a9ea5c-5f8b-4b21-8543-4fe1a098a487")
 			(effects
@@ -15828,7 +15828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fc4c4887-98c3-499a-93d5-b8b7421c3719")
@@ -15840,7 +15840,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "19029388-2b8e-4f91-b015-e1e46eb747ac")
@@ -15856,6 +15856,16 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 7.08 -1.37)
+			(end 7.08 -1.04)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "206e44a1-10be-4956-8520-3ba7da7a0209")
+		)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -15887,26 +15897,6 @@
 			(uuid "22085ecd-880b-44f0-baa6-567825439476")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "82ececdc-674e-4990-a36a-8cb79ac7afd8")
-		)
-		(fp_line
-			(start 7.08 -1.37)
-			(end 7.08 -1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "206e44a1-10be-4956-8520-3ba7da7a0209")
-		)
-		(fp_line
 			(start 7.08 1.37)
 			(end 7.08 1.04)
 			(stroke
@@ -15915,6 +15905,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4b21cda9-4a5b-43a0-b20a-0c75f6c4e1a1")
+		)
+		(fp_line
+			(start 0.54 1.37)
+			(end 7.08 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "82ececdc-674e-4990-a36a-8cb79ac7afd8")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -15928,16 +15928,6 @@
 			(uuid "0e909f13-3cc7-4959-954a-20230aec6692")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "121d976b-09b7-4547-9f28-ed0b5f44cec1")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -15946,6 +15936,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "febfc1f0-0473-45ad-a5d0-3b584e83a075")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "121d976b-09b7-4547-9f28-ed0b5f44cec1")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -15959,7 +15959,7 @@
 			(uuid "17949cdb-fda9-4dc1-ad4f-568b27347460")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "8a0ace25-331e-4cb8-a59f-4bf13253effc")
 			(effects
@@ -15970,7 +15970,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -15980,7 +15980,7 @@
 			(uuid "1457eb16-3159-47bf-81be-c34cc56a8bd0")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -16257,7 +16257,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a913bd53-6269-4218-a0e0-3901cb719d8d")
-		(at 220.5156 11.4972)
+		(at 111.88 124)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R29"
@@ -17986,11 +17986,11 @@
 	(footprint "Capacitor_THT:C_Rect_L4.6mm_W3.0mm_P2.50mm_MKS02_FKP02"
 		(layer "F.Cu")
 		(uuid "b615c20e-26ba-46cf-9463-7184a9a7e7b3")
-		(at 254.242 64.098)
+		(at 113.75 110.5)
 		(descr "C, Rect series, Radial, pin pitch=2.50mm, length*width=4.6*3.0mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
 		(tags "C Rect series Radial pin pitch 2.50mm length 4.6mm width 3.0mm Capacitor")
 		(property "Reference" "C9"
-			(at 1.25 -2.75 0)
+			(at 5 0 0)
 			(layer "F.SilkS")
 			(uuid "e7c695d8-7520-48b2-ac10-42232cf38fd8")
 			(effects
@@ -18352,7 +18352,7 @@
 	(footprint "switches:DPDT"
 		(layer "F.Cu")
 		(uuid "bd9b2071-4a51-48bc-b689-f7231f19f52a")
-		(at 204.4312 41.8072)
+		(at 115.73 70)
 		(property "Reference" "SW2"
 			(at 3.81 1.27 90)
 			(unlocked yes)
@@ -19317,7 +19317,7 @@
 	(footprint "Capacitor_THT:C_Rect_L4.6mm_W4.6mm_P2.50mm_MKS02_FKP02"
 		(layer "F.Cu")
 		(uuid "ceda991b-fec5-4c10-b5e8-cf9d694804d0")
-		(at 266.542 66.498)
+		(at 108.25 82.5)
 		(descr "C, Rect series, Radial, pin pitch=2.50mm, length*width=4.6*4.6mm^2, Capacitor, http://www.wima.de/DE/WIMA_MKS_02.pdf")
 		(tags "C Rect series Radial pin pitch 2.50mm length 4.6mm width 4.6mm Capacitor")
 		(property "Reference" "C6"
@@ -19480,11 +19480,11 @@
 	(footprint "Relay_THT:Relay_DPDT_FRT5"
 		(layer "F.Cu")
 		(uuid "cf882eb2-37cb-4202-9b41-85b91e7e7e83")
-		(at 226.73 114.926)
+		(at 105 82.66 180)
 		(descr "IM Signal Relay DPDT FRT5 narrow footprint")
 		(tags "Relay DPDT IM-relay FRT5")
 		(property "Reference" "K2"
-			(at 0.635 -3.175 0)
+			(at 3.825 5.075 0)
 			(layer "F.SilkS")
 			(uuid "aacaa59e-edd9-4184-9c1c-d99b36f4a7b3")
 			(effects
@@ -19506,7 +19506,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.elpro.org/de/index.php?controller=attachment&id_attachment=8663"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19519,7 +19519,7 @@
 			)
 		)
 		(property "Description" "FORWARD INDUSTRIAL, Miniature Dual Pole Relay, DIP-like package, separate subsymbols"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -19537,114 +19537,14 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.27 -2.286)
-			(end 8.89 -2.286)
+			(start 8.89 12.446)
+			(end -1.27 12.446)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "13e9dddf-05a6-480c-b908-b4260b65e608")
-		)
-		(fp_line
-			(start -1.27 12.446)
-			(end -1.27 -2.286)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2f2b3647-6aff-4b1c-b9d4-71b67aed75a7")
-		)
-		(fp_line
-			(start 2.032 -0.127)
-			(end 2.032 0.508)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "50649197-e2d5-4ee9-8f89-55f3d9336e94")
-		)
-		(fp_line
-			(start 2.032 0.508)
-			(end 2.692 0.508)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ad11c00d-2886-402f-b82e-841cffff3703")
-		)
-		(fp_line
-			(start 2.692 0)
-			(end 2.692 1.016)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f34fb6c7-f79c-43c3-860c-8513323a0f48")
-		)
-		(fp_line
-			(start 2.692 1.016)
-			(end 4.597 1.016)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "04012631-3db9-4821-8c3b-579bc781195c")
-		)
-		(fp_line
-			(start 4.216 0)
-			(end 3.581 1.016)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "beaf151b-bb98-49fa-b367-9c1a55e59893")
-		)
-		(fp_line
-			(start 4.597 0)
-			(end 2.692 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "37294d1b-c03e-4c5c-bfe0-e1ae258cd3da")
-		)
-		(fp_line
-			(start 4.597 0)
-			(end 4.597 1.016)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "accb1b79-ae5d-4832-a595-2879fc905d14")
-		)
-		(fp_line
-			(start 5.232 -0.127)
-			(end 5.232 0.508)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1bdf7814-9a7f-443e-be37-ea3db33ac731")
-		)
-		(fp_line
-			(start 5.232 0.508)
-			(end 4.597 0.508)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0e344a82-8c71-4895-adb0-ea5742e181fc")
+			(uuid "1973121f-85ef-4ff8-9022-371ee04c9f3f")
 		)
 		(fp_line
 			(start 8.89 -2.286)
@@ -19657,44 +19557,114 @@
 			(uuid "a7cefad1-5534-4027-bd58-f85414eaed7e")
 		)
 		(fp_line
-			(start 8.89 12.446)
-			(end -1.27 12.446)
+			(start 5.232 0.508)
+			(end 4.597 0.508)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1973121f-85ef-4ff8-9022-371ee04c9f3f")
+			(uuid "0e344a82-8c71-4895-adb0-ea5742e181fc")
 		)
 		(fp_line
-			(start -1.5 -2.55)
-			(end 9.15 -2.55)
+			(start 5.232 -0.127)
+			(end 5.232 0.508)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "70ecaa9b-d974-4d31-8266-9944810621cc")
+			(layer "F.SilkS")
+			(uuid "1bdf7814-9a7f-443e-be37-ea3db33ac731")
 		)
 		(fp_line
-			(start -1.5 12.7)
-			(end -1.5 -2.55)
+			(start 4.597 0)
+			(end 4.597 1.016)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "eb24a242-5f90-43b3-b1e9-fc248626009e")
+			(layer "F.SilkS")
+			(uuid "accb1b79-ae5d-4832-a595-2879fc905d14")
 		)
 		(fp_line
-			(start 9.15 -2.55)
-			(end 9.15 12.7)
+			(start 4.597 0)
+			(end 2.692 0)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "9fb984eb-d0b6-49f0-a776-a4505b8f0b31")
+			(layer "F.SilkS")
+			(uuid "37294d1b-c03e-4c5c-bfe0-e1ae258cd3da")
+		)
+		(fp_line
+			(start 4.216 0)
+			(end 3.581 1.016)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "beaf151b-bb98-49fa-b367-9c1a55e59893")
+		)
+		(fp_line
+			(start 2.692 1.016)
+			(end 4.597 1.016)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "04012631-3db9-4821-8c3b-579bc781195c")
+		)
+		(fp_line
+			(start 2.692 0)
+			(end 2.692 1.016)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f34fb6c7-f79c-43c3-860c-8513323a0f48")
+		)
+		(fp_line
+			(start 2.032 0.508)
+			(end 2.692 0.508)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ad11c00d-2886-402f-b82e-841cffff3703")
+		)
+		(fp_line
+			(start 2.032 -0.127)
+			(end 2.032 0.508)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "50649197-e2d5-4ee9-8f89-55f3d9336e94")
+		)
+		(fp_line
+			(start -1.27 12.446)
+			(end -1.27 -2.286)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2f2b3647-6aff-4b1c-b9d4-71b67aed75a7")
+		)
+		(fp_line
+			(start -1.27 -2.286)
+			(end 8.89 -2.286)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "13e9dddf-05a6-480c-b908-b4260b65e608")
 		)
 		(fp_line
 			(start 9.15 12.7)
@@ -19707,34 +19677,44 @@
 			(uuid "4886f804-78e7-49f5-9664-c34a6908558c")
 		)
 		(fp_line
-			(start -0.762 -2.032)
-			(end 8.382 -2.032)
+			(start 9.15 -2.55)
+			(end 9.15 12.7)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "df2bc3b5-e3e1-4d60-ba1a-e002984d2847")
+			(layer "F.CrtYd")
+			(uuid "9fb984eb-d0b6-49f0-a776-a4505b8f0b31")
 		)
 		(fp_line
-			(start -0.762 12.192)
-			(end -0.762 -2.032)
+			(start -1.5 12.7)
+			(end -1.5 -2.55)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "ef0935fe-479b-471a-b433-6619f4e99e6b")
+			(layer "F.CrtYd")
+			(uuid "eb24a242-5f90-43b3-b1e9-fc248626009e")
 		)
 		(fp_line
-			(start 0 -1.397)
-			(end 7.62 -1.397)
+			(start -1.5 -2.55)
+			(end 9.15 -2.55)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "70ecaa9b-d974-4d31-8266-9944810621cc")
+		)
+		(fp_line
+			(start 8.382 12.192)
+			(end -0.762 12.192)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9fe2fa14-12cc-4950-afe6-8aed9e4bab6e")
+			(uuid "80c97554-317d-4f49-acfb-a2e7971a9b5b")
 		)
 		(fp_line
 			(start 8.382 -2.032)
@@ -19747,14 +19727,34 @@
 			(uuid "ca0c16fd-e606-4fcd-acd4-231538c136d9")
 		)
 		(fp_line
-			(start 8.382 12.192)
-			(end -0.762 12.192)
+			(start 0 -1.397)
+			(end 7.62 -1.397)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "80c97554-317d-4f49-acfb-a2e7971a9b5b")
+			(uuid "9fe2fa14-12cc-4950-afe6-8aed9e4bab6e")
+		)
+		(fp_line
+			(start -0.762 12.192)
+			(end -0.762 -2.032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef0935fe-479b-471a-b433-6619f4e99e6b")
+		)
+		(fp_line
+			(start -0.762 -2.032)
+			(end 8.382 -2.032)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "df2bc3b5-e3e1-4d60-ba1a-e002984d2847")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.81 5.08 0)
@@ -19768,7 +19768,7 @@
 			)
 		)
 		(pad "1" thru_hole oval
-			(at 0 0)
+			(at 0 0 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19778,7 +19778,7 @@
 			(uuid "57d05ed8-b594-4da2-839d-8d57b3680c9d")
 		)
 		(pad "2" thru_hole oval
-			(at 0 2.54)
+			(at 0 2.54 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19788,7 +19788,7 @@
 			(uuid "ea8c7878-2b14-47d9-8653-2044f8b98aaa")
 		)
 		(pad "3" thru_hole oval
-			(at 0 5.08)
+			(at 0 5.08 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19798,7 +19798,7 @@
 			(uuid "94c3d196-cb62-4907-b815-28fc67f200fd")
 		)
 		(pad "4" thru_hole oval
-			(at 0 7.62)
+			(at 0 7.62 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19808,7 +19808,7 @@
 			(uuid "68e809d4-3fdd-4981-803a-9f06912288f8")
 		)
 		(pad "5" thru_hole oval
-			(at 0 10.16)
+			(at 0 10.16 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19816,7 +19816,7 @@
 			(uuid "91741a84-3f77-414e-afac-7a345d665648")
 		)
 		(pad "6" thru_hole oval
-			(at 7.62 10.16)
+			(at 7.62 10.16 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19824,7 +19824,7 @@
 			(uuid "50f2a19a-c3f4-49c9-9a84-bcf193686b87")
 		)
 		(pad "7" thru_hole oval
-			(at 7.62 7.62)
+			(at 7.62 7.62 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19834,7 +19834,7 @@
 			(uuid "28a223f9-402a-498a-9ed9-bb618ee81f66")
 		)
 		(pad "8" thru_hole oval
-			(at 7.62 5.08)
+			(at 7.62 5.08 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19844,7 +19844,7 @@
 			(uuid "883e875b-ee58-43cb-91a9-82fd28e3731d")
 		)
 		(pad "9" thru_hole oval
-			(at 7.62 2.54)
+			(at 7.62 2.54 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19854,7 +19854,7 @@
 			(uuid "2da9e3d9-7312-4e4f-971d-b6c7d67a139e")
 		)
 		(pad "10" thru_hole oval
-			(at 7.62 0)
+			(at 7.62 0 180)
 			(size 2.3 1.6)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -19879,10 +19879,10 @@
 	(footprint "potentiometers:16MM_PADS.1"
 		(layer "F.Cu")
 		(uuid "d323255b-e2ff-4342-9281-ea8460f12c6c")
-		(at 240.8469 111.8493)
+		(at 108.5 67.5 180)
 		(descr "16mm / Solder Lug\n\nFor wired potentiometers\n\nhttp://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/ http://smallbear-electronics.mybigcommerce.com/alpha-single-gang-16mm-solder-terms-linear-audio-taper/")
 		(property "Reference" "RV3"
-			(at 0 -1.905 0)
+			(at 0 -1.905 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "b7e5154b-9fb0-4409-9777-38b6041461c3")
@@ -19933,54 +19933,14 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(fp_line
-			(start -3.81 -2.54)
-			(end -3.81 -1.27)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "20dbf923-2ac4-447d-8d5b-6c8eb24e8c5c")
-		)
-		(fp_line
-			(start -3.81 -1.27)
+			(start 3.81 1.27)
 			(end -3.81 1.27)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bd920272-167a-4dff-b066-fe7a9c51c0e8")
-		)
-		(fp_line
-			(start 3.81 -2.54)
-			(end -3.81 -2.54)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ffb92a38-0a16-4d77-8726-d850a424ea2d")
-		)
-		(fp_line
-			(start 3.81 -2.54)
-			(end 3.81 -1.27)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "61358ed5-a5e0-4196-833f-0e2aab3ded3a")
-		)
-		(fp_line
-			(start 3.81 -1.27)
-			(end -3.81 -1.27)
-			(stroke
-				(width 0.127)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "30b19e94-b169-4d49-8d47-bf1a601d4cbb")
+			(uuid "d3163e45-ace5-4d5b-b062-392ef4e46c6f")
 		)
 		(fp_line
 			(start 3.81 -1.27)
@@ -19993,17 +19953,57 @@
 			(uuid "5121c741-9cb8-460a-ae47-5da6f3d15a8f")
 		)
 		(fp_line
-			(start 3.81 1.27)
+			(start 3.81 -1.27)
+			(end -3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "30b19e94-b169-4d49-8d47-bf1a601d4cbb")
+		)
+		(fp_line
+			(start 3.81 -2.54)
+			(end 3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "61358ed5-a5e0-4196-833f-0e2aab3ded3a")
+		)
+		(fp_line
+			(start 3.81 -2.54)
+			(end -3.81 -2.54)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ffb92a38-0a16-4d77-8726-d850a424ea2d")
+		)
+		(fp_line
+			(start -3.81 -1.27)
 			(end -3.81 1.27)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d3163e45-ace5-4d5b-b062-392ef4e46c6f")
+			(uuid "bd920272-167a-4dff-b066-fe7a9c51c0e8")
+		)
+		(fp_line
+			(start -3.81 -2.54)
+			(end -3.81 -1.27)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "20dbf923-2ac4-447d-8d5b-6c8eb24e8c5c")
 		)
 		(fp_text user "1"
-			(at 3.302 -1.397 0)
+			(at 3.302 -1.397 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "61f837f8-bb1c-49e3-9b20-0db5db2e31e8")
@@ -20016,7 +20016,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 2.54 0 90)
+			(at 2.54 0 270)
 			(size 1.9304 1.9304)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -20029,7 +20029,7 @@
 			(uuid "2eae57f5-e989-4ac6-ab37-5ea3027ad89b")
 		)
 		(pad "2" thru_hole circle
-			(at 0 0 90)
+			(at 0 0 270)
 			(size 1.9304 1.9304)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -20042,7 +20042,7 @@
 			(uuid "3aef4719-ea9e-4e2a-a30e-7e07831ab512")
 		)
 		(pad "3" thru_hole circle
-			(at -2.54 0 90)
+			(at -2.54 0 270)
 			(size 1.9304 1.9304)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -21105,11 +21105,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f0d9e81b-7ebe-4f90-9e47-6832d19c9f6f")
-		(at 182.27 84.596)
+		(at 164 111.5 180)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R20"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 0)
 			(layer "F.SilkS")
 			(uuid "555603d1-7200-4786-8fef-b08c8bbec475")
 			(effects
@@ -21160,44 +21160,14 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4e65fa66-5851-45b2-9047-b3ca47d8f155")
-		)
-		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "2811b2fc-7cff-41ac-a0e9-24d4ca6c48fe")
-		)
-		(fp_line
-			(start 0.54 1.04)
-			(end 0.54 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "18c40743-3b33-4a08-9080-de5130d598a1")
-		)
-		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d5a4e467-7aa0-4606-b770-a5abefce5e46")
+			(uuid "a85a1bfa-5523-4609-a6f8-258417acdf33")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -21210,14 +21180,44 @@
 			(uuid "e57828bc-167c-4f40-bef4-054d7effd5c4")
 		)
 		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a85a1bfa-5523-4609-a6f8-258417acdf33")
+			(uuid "d5a4e467-7aa0-4606-b770-a5abefce5e46")
+		)
+		(fp_line
+			(start 0.54 1.04)
+			(end 0.54 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18c40743-3b33-4a08-9080-de5130d598a1")
+		)
+		(fp_line
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2811b2fc-7cff-41ac-a0e9-24d4ca6c48fe")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4e65fa66-5851-45b2-9047-b3ca47d8f155")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -21231,16 +21231,6 @@
 			(uuid "f1791724-158e-4abc-a97f-d76087ce49cc")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "173fdba9-2ecb-4d46-9f43-be2bcc460d25")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -21249,6 +21239,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "8c98d635-16a4-4655-afc4-c0341d1c485f")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "173fdba9-2ecb-4d46-9f43-be2bcc460d25")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -21273,7 +21273,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -21283,7 +21283,7 @@
 			(uuid "15046770-90d7-4873-a941-8208c79d1487")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 180)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -21308,11 +21308,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f0dba3a0-fdaf-48de-bb29-a0fcca3d9f7d")
-		(at 182.27 56.246)
+		(at 112.5 96.38 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R13"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "868a7acf-8d62-4048-9c05-84689162c718")
 			(effects
@@ -21323,7 +21323,7 @@
 			)
 		)
 		(property "Value" "15K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "c1bc4470-a941-4924-a43c-d85d3111062a")
 			(effects
@@ -21334,7 +21334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2347c953-0acb-486d-8da4-09dbabf9d123")
@@ -21346,7 +21346,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69139447-c3fc-4890-a257-85c10d882da8")
@@ -21363,24 +21363,24 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7ebcada5-0aca-4045-953f-4bd2117224c3")
+			(uuid "0a174d76-f3f5-49b0-a23e-0745c66c1e88")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "319dd3f0-c4b1-40fa-bbe4-b3213fe05c42")
+			(uuid "3fef80bc-06b3-4f40-9715-94eb3b04e88d")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -21393,14 +21393,24 @@
 			(uuid "f2f496d3-6c7f-439a-9426-29c1e68729b4")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0a174d76-f3f5-49b0-a23e-0745c66c1e88")
+			(uuid "319dd3f0-c4b1-40fa-bbe4-b3213fe05c42")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7ebcada5-0aca-4045-953f-4bd2117224c3")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -21411,16 +21421,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "4be99d75-4458-446b-aa3d-c4b9b54302ea")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3fef80bc-06b3-4f40-9715-94eb3b04e88d")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -21465,7 +21465,7 @@
 			(uuid "41050ab3-0b10-4c8c-8daa-269805b51ce3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "fd60eef4-e38f-4788-b53d-c6edcd187f7c")
 			(effects
@@ -21476,7 +21476,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -21486,7 +21486,7 @@
 			(uuid "0f970639-59f2-4f16-a129-481da5a4b896")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -21511,11 +21511,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f1e63ab9-500f-4fe7-8a1f-4f95c8634da2")
-		(at 182.27 76.496)
+		(at 95 104.12 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R18"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "cff038b6-de4d-49d5-9a1e-9fb14e5d7e0a")
 			(effects
@@ -21526,7 +21526,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "8120b8cc-2b78-47df-933e-98927fc86c1a")
 			(effects
@@ -21537,7 +21537,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37a43897-b6fc-49ff-ad93-6984ac575b64")
@@ -21549,7 +21549,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c42f8426-3e9e-403a-b6a7-2456960476fc")
@@ -21565,6 +21565,16 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 7.08 -1.37)
+			(end 7.08 -1.04)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0dd3d45a-458c-4204-a3bf-063f9c06db25")
+		)
 		(fp_line
 			(start 0.54 -1.37)
 			(end 7.08 -1.37)
@@ -21596,26 +21606,6 @@
 			(uuid "8458b3eb-1643-4930-8800-ac8473810628")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6c4f3af3-198a-4852-803a-817c3848bb4e")
-		)
-		(fp_line
-			(start 7.08 -1.37)
-			(end 7.08 -1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0dd3d45a-458c-4204-a3bf-063f9c06db25")
-		)
-		(fp_line
 			(start 7.08 1.37)
 			(end 7.08 1.04)
 			(stroke
@@ -21624,6 +21614,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "c58ffc7f-30c9-44de-884b-67676b23b3f0")
+		)
+		(fp_line
+			(start 0.54 1.37)
+			(end 7.08 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6c4f3af3-198a-4852-803a-817c3848bb4e")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -21637,16 +21637,6 @@
 			(uuid "4ba9ce39-4d17-4bcd-91f8-d6eb3bfb42fc")
 		)
 		(fp_line
-			(start 0 0)
-			(end 0.66 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a173225e-b4f4-42ff-86fa-afd4c53a8872")
-		)
-		(fp_line
 			(start 7.62 0)
 			(end 6.96 0)
 			(stroke
@@ -21655,6 +21645,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "79411cb7-b1b7-4783-9982-59b967bd12af")
+		)
+		(fp_line
+			(start 0 0)
+			(end 0.66 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a173225e-b4f4-42ff-86fa-afd4c53a8872")
 		)
 		(fp_rect
 			(start 0.66 -1.25)
@@ -21668,7 +21668,7 @@
 			(uuid "d096f8c6-019d-47a0-818d-554f69dd1245")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "6396abbf-d20f-4e75-8f70-e68afa82ee6b")
 			(effects
@@ -21679,7 +21679,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -21689,7 +21689,7 @@
 			(uuid "121f3ce3-c58d-41fc-8adb-ed34b5ca921c")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -21714,7 +21714,7 @@
 	(footprint "CustomJacks:Switched Mono Jack"
 		(layer "F.Cu")
 		(uuid "f235db32-6af3-4835-89a6-348dcf9ef163")
-		(at 280.578 119.387)
+		(at 94.54 67.5)
 		(property "Reference" "J1"
 			(at 0 -1.905 0)
 			(unlocked yes)
@@ -21820,7 +21820,7 @@
 			)
 		)
 		(fp_text user "T"
-			(at 3.01625 1.42875 180)
+			(at 2.96 1.5 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "308b0568-17b9-43ab-bdc9-23f0ed2a2731")
@@ -21886,11 +21886,11 @@
 	(footprint "OptoDevice:PerkinElmer_VTL5C"
 		(layer "F.Cu")
 		(uuid "f29d2a0e-7be9-4a59-b5be-c5b37b11ee1a")
-		(at 214.36 80.946)
+		(at 104.6 121 90)
 		(descr "Axial Vactrol (http://www.qsl.net/wa1ion/vactrol/vactrol.pdf)")
 		(tags "vactrol")
 		(property "Reference" "U7"
-			(at 7.5 -4.1 0)
+			(at 7.5 1.9 0)
 			(layer "F.SilkS")
 			(uuid "f825b9fe-23df-4281-b443-1acbc4e640a7")
 			(effects
@@ -21901,7 +21901,7 @@
 			)
 		)
 		(property "Value" "VTL5C"
-			(at 7.5 7.9 0)
+			(at 7.5 7.9 90)
 			(layer "F.Fab")
 			(uuid "eb373fae-b8cd-42db-8343-76869bcc356d")
 			(effects
@@ -21912,7 +21912,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.qsl.net/wa1ion/vactrol/vactrol.pdf"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21925,7 +21925,7 @@
 			)
 		)
 		(property "Description" "Low Cost Axial Vactrols"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -21943,24 +21943,14 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 2.49 -0.53)
-			(end 2.49 6.91)
+			(start 12.51 -3.11)
+			(end 5.07 -3.11)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7e44668e-fdc3-4ec8-a4a5-8c5bbe6b1405")
-		)
-		(fp_line
-			(start 2.49 6.91)
-			(end 12.51 6.91)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "878275c9-b04d-42a2-bdfb-3442fc844808")
+			(uuid "87391908-7464-4315-b7d8-d623aab1e6cf")
 		)
 		(fp_line
 			(start 5.07 -3.11)
@@ -21973,14 +21963,14 @@
 			(uuid "452d4597-5ab3-40af-a38f-3bff62b0c687")
 		)
 		(fp_line
-			(start 12.51 -3.11)
-			(end 5.07 -3.11)
+			(start 2.49 -0.53)
+			(end 2.49 6.91)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "87391908-7464-4315-b7d8-d623aab1e6cf")
+			(uuid "7e44668e-fdc3-4ec8-a4a5-8c5bbe6b1405")
 		)
 		(fp_line
 			(start 12.51 6.91)
@@ -21993,54 +21983,24 @@
 			(uuid "14f809a4-40e0-4d04-aa96-fe901303e5a1")
 		)
 		(fp_line
-			(start -0.83 4.63)
-			(end -0.83 -0.83)
+			(start 2.49 6.91)
+			(end 12.51 6.91)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "43bf77a3-9044-401c-b511-d4d1f21d59c1")
+			(layer "F.SilkS")
+			(uuid "878275c9-b04d-42a2-bdfb-3442fc844808")
 		)
 		(fp_line
-			(start 2.3 4.63)
-			(end -0.83 4.63)
+			(start 12.7 -3.3)
+			(end 12.7 -1.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1b4880f4-0a1c-4ded-8531-0c3e02e04326")
-		)
-		(fp_line
-			(start 2.3 7.1)
-			(end 2.3 4.63)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a273fa73-daba-4bc1-8226-c37fba3396fe")
-		)
-		(fp_line
-			(start 2.53 -0.83)
-			(end -0.83 -0.83)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bfdad3ab-78c8-44d2-89e8-16b3de6b9441")
-		)
-		(fp_line
-			(start 2.53 -0.83)
-			(end 5 -3.3)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0332646d-d9db-451f-8801-3e048e6dbd64")
+			(uuid "eedc86a4-1603-46ab-b022-5bd8151205d7")
 		)
 		(fp_line
 			(start 5 -3.3)
@@ -22053,14 +22013,74 @@
 			(uuid "62d41735-ec7b-4cff-9b01-dc23e33525fe")
 		)
 		(fp_line
-			(start 12.7 -3.3)
+			(start 15.83 -1.47)
 			(end 12.7 -1.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "eedc86a4-1603-46ab-b022-5bd8151205d7")
+			(uuid "fa0d5797-7466-4634-9734-e40610b85fa3")
+		)
+		(fp_line
+			(start 2.53 -0.83)
+			(end 5 -3.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0332646d-d9db-451f-8801-3e048e6dbd64")
+		)
+		(fp_line
+			(start 2.53 -0.83)
+			(end -0.83 -0.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bfdad3ab-78c8-44d2-89e8-16b3de6b9441")
+		)
+		(fp_line
+			(start 2.3 4.63)
+			(end -0.83 4.63)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1b4880f4-0a1c-4ded-8531-0c3e02e04326")
+		)
+		(fp_line
+			(start -0.83 4.63)
+			(end -0.83 -0.83)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "43bf77a3-9044-401c-b511-d4d1f21d59c1")
+		)
+		(fp_line
+			(start 15.83 5.27)
+			(end 15.83 -1.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1b919943-e06c-4b6b-a772-9c425da77ac5")
+		)
+		(fp_line
+			(start 15.83 5.27)
+			(end 12.7 5.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "313d5162-c27c-4b33-add5-3be1da3daf63")
 		)
 		(fp_line
 			(start 12.7 5.27)
@@ -22083,34 +22103,54 @@
 			(uuid "fcec0d15-acff-46e3-9c8b-028cce13b395")
 		)
 		(fp_line
-			(start 15.83 -1.47)
-			(end 12.7 -1.47)
+			(start 2.3 7.1)
+			(end 2.3 4.63)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fa0d5797-7466-4634-9734-e40610b85fa3")
+			(uuid "a273fa73-daba-4bc1-8226-c37fba3396fe")
 		)
 		(fp_line
-			(start 15.83 5.27)
-			(end 12.7 5.27)
+			(start 12.45 -3.05)
+			(end 12.45 6.85)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "313d5162-c27c-4b33-add5-3be1da3daf63")
+			(layer "F.Fab")
+			(uuid "70e4dd57-61eb-4811-81b5-5676009dec67")
 		)
 		(fp_line
-			(start 15.83 5.27)
-			(end 15.83 -1.47)
+			(start 5.1 -3.05)
+			(end 12.45 -3.05)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "1b919943-e06c-4b6b-a772-9c425da77ac5")
+			(layer "F.Fab")
+			(uuid "4b6d9025-f730-43f9-ba90-eb4a2d43b9d2")
+		)
+		(fp_line
+			(start 5.1 -3.05)
+			(end 2.55 -0.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6a59cce9-c60d-42ad-9a36-90292b825360")
+		)
+		(fp_line
+			(start 14.3 -0.64)
+			(end 12.45 -0.64)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c49e7b7-2124-4336-9f89-a7dec91de0df")
 		)
 		(fp_line
 			(start 0.7 0.25)
@@ -22133,44 +22173,14 @@
 			(uuid "14ed0af7-da60-4436-b084-540a0bb8347b")
 		)
 		(fp_line
-			(start 2.55 6.85)
-			(end 2.55 -0.5)
+			(start 14.3 4.44)
+			(end 12.45 4.44)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "132c8057-308b-4585-b70a-8365f19f7e1d")
-		)
-		(fp_line
-			(start 5.1 -3.05)
-			(end 2.55 -0.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6a59cce9-c60d-42ad-9a36-90292b825360")
-		)
-		(fp_line
-			(start 5.1 -3.05)
-			(end 12.45 -3.05)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4b6d9025-f730-43f9-ba90-eb4a2d43b9d2")
-		)
-		(fp_line
-			(start 12.45 -3.05)
-			(end 12.45 6.85)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "70e4dd57-61eb-4811-81b5-5676009dec67")
+			(uuid "d00abe3e-fcfd-4e4f-a44d-7152eb958b60")
 		)
 		(fp_line
 			(start 12.45 6.85)
@@ -22183,27 +22193,17 @@
 			(uuid "f4bceff0-f56b-4d46-8339-475d0b1fd117")
 		)
 		(fp_line
-			(start 14.3 -0.64)
-			(end 12.45 -0.64)
+			(start 2.55 6.85)
+			(end 2.55 -0.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6c49e7b7-2124-4336-9f89-a7dec91de0df")
-		)
-		(fp_line
-			(start 14.3 4.44)
-			(end 12.45 4.44)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d00abe3e-fcfd-4e4f-a44d-7152eb958b60")
+			(uuid "132c8057-308b-4585-b70a-8365f19f7e1d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 7.5 1.9 0)
+			(at 7.5 1.9 90)
 			(layer "F.Fab")
 			(uuid "86db0558-8b51-4e2b-a51c-cd8bd03bcf38")
 			(effects
@@ -22214,7 +22214,7 @@
 			)
 		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -22226,7 +22226,7 @@
 			(uuid "00cc37cd-2fd8-4fa2-a4c1-53b63d659f07")
 		)
 		(pad "2" thru_hole circle
-			(at 0 3.8)
+			(at 0 3.8 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -22237,7 +22237,7 @@
 			(uuid "10792990-2d73-4bf4-8629-1da407f94b35")
 		)
 		(pad "3" thru_hole circle
-			(at 15 -0.64)
+			(at 15 -0.64 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -22247,7 +22247,7 @@
 			(uuid "a5bb48a1-6d51-4744-9919-fbefba59c65b")
 		)
 		(pad "4" thru_hole circle
-			(at 15 4.44)
+			(at 15 4.44 90)
 			(size 1.15 1.15)
 			(drill 0.55)
 			(layers "*.Cu" "*.Mask")
@@ -22272,11 +22272,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f5b1be4e-ea74-48cd-a95e-122afc84a020")
-		(at 171.5 88.646)
+		(at 111 71.19 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R9"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "cb861c72-6046-45e3-ab67-88fd44fafdb5")
 			(effects
@@ -22287,7 +22287,7 @@
 			)
 		)
 		(property "Value" "15K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "8abd49b3-1445-484d-96b1-48aa99393b5e")
 			(effects
@@ -22298,7 +22298,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3ca35443-399c-4b0a-b061-41c0cceb3f18")
@@ -22310,7 +22310,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "881fccfd-6378-4aac-ad0a-f961487ad090")
@@ -22327,24 +22327,24 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7e959138-a65d-46cf-b026-13a1a9d7a934")
+			(uuid "7ba262d2-4e95-4c5c-bc5c-c20aa04c35f6")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4274804e-c6c5-4707-ad54-725431704a29")
+			(uuid "4a901984-cfcc-42a0-9e73-c2d36e5766ec")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -22357,14 +22357,24 @@
 			(uuid "4013497f-1aa8-47a8-aa1c-0150d8a044ab")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7ba262d2-4e95-4c5c-bc5c-c20aa04c35f6")
+			(uuid "4274804e-c6c5-4707-ad54-725431704a29")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7e959138-a65d-46cf-b026-13a1a9d7a934")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -22375,16 +22385,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "5bd7285b-9898-4855-a2d5-ef680640eb89")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4a901984-cfcc-42a0-9e73-c2d36e5766ec")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -22429,7 +22429,7 @@
 			(uuid "2825bbff-3a07-4653-9234-066b70b2b439")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "2a4cb73b-43ad-42df-9030-1454de882fb4")
 			(effects
@@ -22440,7 +22440,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -22450,7 +22450,7 @@
 			(uuid "1d168c5a-81ec-4e05-9519-a3e7bb03239c")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -22475,11 +22475,11 @@
 	(footprint "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical"
 		(layer "F.Cu")
 		(uuid "f6d70fcc-befc-4aa4-9aad-897086554137")
-		(at 254.9684 105.4568)
+		(at 114 94 90)
 		(descr "Potentiometer, vertical, Piher PT-6-V, http://www.piher-nacesa.com/pdf/11-PT6v03.pdf")
 		(tags "Potentiometer vertical Piher PT-6-V")
 		(property "Reference" "TR2"
-			(at 2.5 -7.06 0)
+			(at 2.5 -2.495 180)
 			(layer "F.SilkS")
 			(uuid "7aa7d79a-aced-4926-954a-a95170410f26")
 			(effects
@@ -22490,7 +22490,7 @@
 			)
 		)
 		(property "Value" "VOLUME Trim 50k"
-			(at 2.5 2.06 0)
+			(at 2.5 2.06 90)
 			(layer "F.Fab")
 			(uuid "204846ca-4a92-4797-9deb-b6abd160252a")
 			(effects
@@ -22501,7 +22501,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6b42301b-2f2b-4c16-b14b-dbb317ad95b8")
@@ -22513,7 +22513,7 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38ed7b8a-37db-4bf2-81e6-0244405880c3")
@@ -22529,17 +22529,6 @@
 		(sheetname "/")
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
-		(fp_arc
-			(start -0.378 -0.969)
-			(mid -0.76 -2.5)
-			(end -0.378 -4.031)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "98609dde-dc07-4c02-b461-da164709d69c")
-		)
 		(fp_arc
 			(start 0.969 -5.378)
 			(mid 3.818477 -5.481789)
@@ -22562,6 +22551,17 @@
 			(layer "F.SilkS")
 			(uuid "c609bc05-b820-4cc9-83ae-830ca3582966")
 		)
+		(fp_arc
+			(start -0.378 -0.969)
+			(mid -0.76 -2.5)
+			(end -0.378 -4.031)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98609dde-dc07-4c02-b461-da164709d69c")
+		)
 		(fp_rect
 			(start -1.06 -6.06)
 			(end 6.06 1.07)
@@ -22575,17 +22575,6 @@
 		)
 		(fp_circle
 			(center 2.5 -2.5)
-			(end 3.4 -2.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "3826d4d1-7a76-4950-aa65-d77c61eb8d81")
-		)
-		(fp_circle
-			(center 2.5 -2.5)
 			(end 5.65 -2.5)
 			(stroke
 				(width 0.1)
@@ -22595,8 +22584,19 @@
 			(layer "F.Fab")
 			(uuid "2b01fd7a-b50f-499d-8967-207dfa07b6e5")
 		)
+		(fp_circle
+			(center 2.5 -2.5)
+			(end 3.4 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "3826d4d1-7a76-4950-aa65-d77c61eb8d81")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0.55 -2.5 90)
+			(at 0.55 -2.5 0)
 			(layer "F.Fab")
 			(uuid "0f312ec4-57b5-4557-9b49-bdcb7d6eeb79")
 			(effects
@@ -22607,7 +22607,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -22618,7 +22618,7 @@
 			(uuid "87f7f789-f14f-4e0b-a2c4-4066988f1121")
 		)
 		(pad "2" thru_hole circle
-			(at 5 -2.5)
+			(at 5 -2.5 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -22629,7 +22629,7 @@
 			(uuid "30ccc60e-f066-4f98-be5f-d8fbc8a21455")
 		)
 		(pad "3" thru_hole circle
-			(at 0 -5)
+			(at 0 -5 90)
 			(size 1.62 1.62)
 			(drill 0.9)
 			(layers "*.Cu" "*.Mask")
@@ -23496,11 +23496,11 @@
 	(footprint "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "fb84def7-9eab-402e-a78b-928bf9ea4421")
-		(at 266.392 76.598)
+		(at 115 77.585)
 		(descr "C, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=11mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 2.00mm diameter 5mm height 11mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C19"
-			(at 1 -3.75 0)
+			(at 1 -1.585 0)
 			(layer "F.SilkS")
 			(uuid "16fcca09-2b24-465f-b1a6-22347b7866ff")
 			(effects
@@ -24318,11 +24318,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "fdfca5d3-5dfd-4aa1-a96f-23f8651bf3e0")
-		(at 182.27 72.446)
+		(at 109.5 96.38 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R17"
-			(at 3.81 -2.37 0)
+			(at 3.81 0 90)
 			(layer "F.SilkS")
 			(uuid "f17364aa-bc5d-48c2-8de4-89df9e0a7e0a")
 			(effects
@@ -24333,7 +24333,7 @@
 			)
 		)
 		(property "Value" "51K"
-			(at 3.81 2.37 0)
+			(at 3.81 2.37 90)
 			(layer "F.Fab")
 			(uuid "54440678-84d4-41db-a4c5-8cf20a674321")
 			(effects
@@ -24344,7 +24344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7ad27609-393e-4a15-b2ce-77b23c313b9b")
@@ -24356,7 +24356,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5895481-d9ed-44f1-9664-03c854c1a3d4")
@@ -24373,24 +24373,24 @@
 		(sheetfile "wolpertinger.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 0.54 -1.37)
-			(end 7.08 -1.37)
+			(start 0.54 1.37)
+			(end 7.08 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "25d39cc6-7e22-42cd-bcb8-98b4c2ab9f03")
+			(uuid "92d6ff96-d215-4240-847b-52440c80c653")
 		)
 		(fp_line
-			(start 0.54 -1.04)
-			(end 0.54 -1.37)
+			(start 7.08 1.37)
+			(end 7.08 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b749a96a-e79c-4d85-8257-fe5f57642f51")
+			(uuid "0134f9a6-54e4-4cab-915f-244d7f4d76ec")
 		)
 		(fp_line
 			(start 0.54 1.04)
@@ -24403,14 +24403,24 @@
 			(uuid "3c4f178a-848a-4c35-8aa5-03d1be05dbcc")
 		)
 		(fp_line
-			(start 0.54 1.37)
-			(end 7.08 1.37)
+			(start 0.54 -1.04)
+			(end 0.54 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "92d6ff96-d215-4240-847b-52440c80c653")
+			(uuid "b749a96a-e79c-4d85-8257-fe5f57642f51")
+		)
+		(fp_line
+			(start 0.54 -1.37)
+			(end 7.08 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "25d39cc6-7e22-42cd-bcb8-98b4c2ab9f03")
 		)
 		(fp_line
 			(start 7.08 -1.37)
@@ -24421,16 +24431,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "935f06d5-043e-4e2a-b0c7-b245d3d18cec")
-		)
-		(fp_line
-			(start 7.08 1.37)
-			(end 7.08 1.04)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0134f9a6-54e4-4cab-915f-244d7f4d76ec")
 		)
 		(fp_rect
 			(start -1.05 -1.5)
@@ -24475,7 +24475,7 @@
 			(uuid "aa8f92f4-d2d7-417e-b005-929fa7888660")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 0 0)
+			(at 3.81 0 90)
 			(layer "F.Fab")
 			(uuid "da660de2-fba8-49c0-865b-06516f6f61ea")
 			(effects
@@ -24486,7 +24486,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -24496,7 +24496,7 @@
 			(uuid "78f6428b-97a6-41f6-9146-7b7472849aa3")
 		)
 		(pad "2" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 270)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
