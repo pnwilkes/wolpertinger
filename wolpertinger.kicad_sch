@@ -10390,7 +10390,7 @@
 			)
 		)
 	)
-	(global_label "Vref 1"
+	(global_label "Vref1"
 		(shape output)
 		(at 287.02 46.99 0)
 		(fields_autoplaced yes)
@@ -10402,7 +10402,7 @@
 		)
 		(uuid "33e95669-ef69-471b-a2af-9f78e7a636d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.8714 46.99 0)
+			(at 294.9038 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10566,7 @@
 			)
 		)
 	)
-	(global_label "Vref 2"
+	(global_label "Vref2"
 		(shape output)
 		(at 287.02 88.9 0)
 		(fields_autoplaced yes)
@@ -10578,7 +10578,7 @@
 		)
 		(uuid "5bd930ad-f0e3-4514-ae5e-718116c0e8a7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.8714 88.9 0)
+			(at 294.9038 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10720,7 +10720,7 @@
 			)
 		)
 	)
-	(global_label "Vref 3"
+	(global_label "Vref3"
 		(shape output)
 		(at 361.95 46.99 0)
 		(fields_autoplaced yes)
@@ -10732,7 +10732,7 @@
 		)
 		(uuid "74da0260-4ae5-426f-aa30-b318089c010e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 370.8014 46.99 0)
+			(at 369.8338 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10808,7 +10808,7 @@
 			)
 		)
 	)
-	(global_label "Vref 3"
+	(global_label "Vref3"
 		(shape input)
 		(at 351.79 161.29 180)
 		(fields_autoplaced yes)
@@ -10820,7 +10820,7 @@
 		)
 		(uuid "8f77f99a-7ae3-45d4-b15f-3c8843dc70eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 342.9386 161.29 0)
+			(at 343.9062 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11248,7 +11248,7 @@
 			)
 		)
 	)
-	(global_label "Vref 3"
+	(global_label "Vref3"
 		(shape input)
 		(at 99.06 273.05 270)
 		(fields_autoplaced yes)
@@ -11260,7 +11260,7 @@
 		)
 		(uuid "ef7f10cf-8ff6-4182-b3f8-1d51a08ea27e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.06 281.9014 90)
+			(at 99.06 280.9338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11358,7 +11358,7 @@
 			)
 		)
 	)
-	(global_label "Vref 3"
+	(global_label "Vref3"
 		(shape input)
 		(at 153.67 265.43 180)
 		(fields_autoplaced yes)
@@ -11370,7 +11370,7 @@
 		)
 		(uuid "f394ebc6-04a2-41ad-bea4-5dfa0ac7cfb2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.8186 265.43 0)
+			(at 145.7862 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
